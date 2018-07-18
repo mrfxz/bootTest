@@ -1,0 +1,17 @@
+# tomcat服务器设置
+server:
+       port: 8080
+
+spring:
+       # profiles:active: dev 指定运行环境,一般用于开发,测试,线上环境配置文件的切换
+      datasource:
+                #基本属性
+                driver-class-name: com.mysql.jdbc.Driver
+                url: jdbc:mysql://127.0.0.1:3306/boot?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+                username: root
+                password: root
+
+
+
+
+
