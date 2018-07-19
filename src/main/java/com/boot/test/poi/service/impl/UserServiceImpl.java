@@ -1,17 +1,18 @@
-package com.poi.test.poi.service.impl;
+package com.boot.test.poi.service.impl;
 
-import com.poi.test.poi.dao.UserPojoMapper;
-import com.poi.test.poi.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.boot.test.poi.dao.UserDao;
+import com.boot.test.poi.pojo.UserPojo;
+import com.boot.test.poi.service.UserService;
 import org.springframework.stereotype.Service;
-import pojo.UserPojo;
 
+import javax.annotation.Resource;
+import java.util.List;
 
 @Service
 public class UserServiceImpl implements UserService {
 
-    @Autowired
-    private UserPojoMapper userDao;
+    @Resource
+    private UserDao userDao;
     @Override
     public int deleteByPrimaryKey(Integer id) {
         return userDao.deleteByPrimaryKey(id);
@@ -40,5 +41,10 @@ public class UserServiceImpl implements UserService {
     @Override
     public int updateByPrimaryKey(UserPojo record) {
         return userDao.updateByPrimaryKey(record);
+    }
+
+    @Override
+    public List<UserPojo> selectList(UserPojo user) {
+        return userDao.selectList(user);
     }
 }

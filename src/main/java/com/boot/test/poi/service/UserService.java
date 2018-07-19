@@ -1,9 +1,10 @@
-package com.poi.test.poi.dao;
+package com.boot.test.poi.service;
+import com.boot.test.poi.pojo.UserPojo;
 
-import org.springframework.stereotype.Repository;
-import pojo.UserPojo;
-@Repository
-public interface UserPojoMapper {
+import java.util.List;
+
+public interface UserService {
+
     int deleteByPrimaryKey(Integer id);
 
     int insert(UserPojo record);
@@ -15,4 +16,6 @@ public interface UserPojoMapper {
     int updateByPrimaryKeySelective(UserPojo record);
 
     int updateByPrimaryKey(UserPojo record);
+
+    List<UserPojo> selectList(UserPojo user);
 }

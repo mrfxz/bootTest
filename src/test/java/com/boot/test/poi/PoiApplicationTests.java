@@ -1,4 +1,4 @@
-package com.poi.test.poi;
+package com.boot.test.poi;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

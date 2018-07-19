@@ -1,15 +1,20 @@
-# tomcat·şÎñÆ÷ÉèÖÃ
+# tomcatæœåŠ¡å™¨è®¾ç½®
 server:
        port: 8080
 
 spring:
-       # profiles:active: dev Ö¸¶¨ÔËĞĞ»·¾³,Ò»°ãÓÃÓÚ¿ª·¢,²âÊÔ,ÏßÉÏ»·¾³ÅäÖÃÎÄ¼şµÄÇĞ»»
+       # profiles:active: dev æŒ‡å®šè¿è¡Œç¯å¢ƒ,ä¸€èˆ¬ç”¨äºå¼€å‘,æµ‹è¯•,çº¿ä¸Šç¯å¢ƒé…ç½®æ–‡ä»¶çš„åˆ‡æ¢
       datasource:
-                #»ù±¾ÊôĞÔ
+                #åŸºæœ¬å±æ€§
                 driver-class-name: com.mysql.jdbc.Driver
                 url: jdbc:mysql://127.0.0.1:3306/boot?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
                 username: root
                 password: root
+
+#mybatis
+mybatis:
+   mapper-locations:  classpath*:com/boot/test/poi/mapper/*.xml
+   type-aliases-package: com.boot.test.poi
 
 
 
