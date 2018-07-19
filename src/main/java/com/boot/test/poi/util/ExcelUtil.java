@@ -50,7 +50,7 @@ public abstract class ExcelUtil<T> {
             for(int i = 0; i < cols.size(); i++){
                 createCel(firstRow,style,i).setCellValue(cols.get(i).getTitle());
             }
-            int count = 0;
+            int count = 1;
             for (T data:list) {
                 createRowByData(sheet,style,data,count++);
             }
