@@ -15,6 +15,11 @@
 		]]>
 	</select>
 
+    <insert id="insert" parameterType="com.boot.test.poi.pojo.UserPojo">
+        <![CDATA[
+           insert into userinfo values (#{id},#{userName},#{password})
+        ]]>
+    </insert>
 
 </mapper>
 

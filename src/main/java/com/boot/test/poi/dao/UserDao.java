@@ -9,7 +9,7 @@ import java.util.List;
 public interface  UserDao {
     int deleteByPrimaryKey(Integer id);
 
-    int insert(UserPojo record);
+    void insert(UserPojo record);
 
     int insertSelective(UserPojo record);
 

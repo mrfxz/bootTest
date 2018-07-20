@@ -19,8 +19,8 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public int insert(UserPojo record) {
-        return userDao.insert(record);
+    public void insert(UserPojo record) {
+         userDao.insert(record);
     }
 
     @Override

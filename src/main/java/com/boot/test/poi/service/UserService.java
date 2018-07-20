@@ -7,7 +7,7 @@ public interface UserService {
 
     int deleteByPrimaryKey(Integer id);
 
-    int insert(UserPojo record);
+    void insert(UserPojo record);
 
     int insertSelective(UserPojo record);
 

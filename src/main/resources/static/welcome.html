@@ -6,6 +6,10 @@
 </head>
 <body>
     欢迎来到德莱联盟!!!
-    <a href = "/hello/exportFile">导出用户</a>
+    <a href = "/hello/exportFile">导出用户</a><br>
+    <form method="post" action="/hello/importExcel" enctype="multipart/form-data">
+        <input type="file" name="file" value="事件上传">
+        <input type="submit" value="上传">
+    </form>
 </body>
 </html>
