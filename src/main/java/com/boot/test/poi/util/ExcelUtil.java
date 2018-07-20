@@ -2,10 +2,11 @@ package com.boot.test.poi.util;
 
 import com.boot.test.poi.vo.ExcelCol;
 import org.apache.poi.hssf.usermodel.*;
-import org.apache.poi.hssf.util.HSSFColor;
 
 import java.lang.reflect.Method;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 
 /**
@@ -22,7 +23,8 @@ public abstract class ExcelUtil<T> {
      */
     //第一行描述信息,如姓名,年龄,序号,籍贯等
     protected List<ExcelCol> cols;
-
+    //多种样式集合
+    protected Map<String,HSSFCellStyle> styles;
      public ExcelUtil(){
          init();
      }
@@ -43,16 +45,18 @@ public abstract class ExcelUtil<T> {
         //2 创建操作表
         HSSFSheet sheet = workbook.createSheet(sheetName);
         //3 设置格式
-        HSSFCellStyle style = setStyle(workbook);
+         setStyle(workbook);
+         HSSFCellStyle dataStyle = styles.get("dataStyle");
+        HSSFCellStyle titleStyle = styles.get("titleStyle");
         //4 循环List创建row
         if(list != null){
             HSSFRow firstRow = sheet.createRow(0);
             for(int i = 0; i < cols.size(); i++){
-                createCel(firstRow,style,i).setCellValue(cols.get(i).getTitle());
+                createCel(firstRow,titleStyle,i).setCellValue(cols.get(i).getTitle());
             }
             int count = 1;
             for (T data:list) {
-                createRowByData(sheet,style,data,count++);
+                createRowByData(sheet,dataStyle,data,count++);
             }
         }
 
@@ -63,31 +67,22 @@ public abstract class ExcelUtil<T> {
      * 设置Excel通用格式
      * @param workbook
      */
-    protected  HSSFCellStyle setStyle(HSSFWorkbook workbook){
-         HSSFCellStyle style = workbook.createCellStyle();
-
-        //1 设置边框
-        //设置底边框颜色;
+    protected  Map<String,HSSFCellStyle> setStyle(HSSFWorkbook workbook){
+        //数据格式
+         HSSFCellStyle dataStyle = workbook.createCellStyle();
+         styles = new HashMap<>();
         //设置底边框;
-        style.setBorderBottom(HSSFCellStyle.BORDER_THIN);
-        //设置底边框颜色;
-        style.setBottomBorderColor(HSSFColor.BLACK.index);
+        dataStyle.setBorderBottom(HSSFCellStyle.BORDER_THIN);
         //设置左边框;
-        style.setBorderLeft(HSSFCellStyle.BORDER_THIN);
-        //设置左边框颜色;
-        style.setLeftBorderColor(HSSFColor.BLACK.index);
+        dataStyle.setBorderLeft(HSSFCellStyle.BORDER_THIN);
         //设置右边框;
-        style.setBorderRight(HSSFCellStyle.BORDER_THIN);
-        //设置右边框颜色;
-        style.setRightBorderColor(HSSFColor.BLACK.index);
+        dataStyle.setBorderRight(HSSFCellStyle.BORDER_THIN);
         //设置顶边框;
-        style.setBorderTop(HSSFCellStyle.BORDER_THIN);
-        //设置顶边框颜色;
-        style.setTopBorderColor(HSSFColor.BLACK.index);
+        dataStyle.setBorderTop(HSSFCellStyle.BORDER_THIN);
         //设置自动换行;
-        style.setWrapText(true);
+        dataStyle.setWrapText(true);
         //设置水平对齐的样式为居中对齐;
-        style.setAlignment(HSSFCellStyle.ALIGN_CENTER);
+        dataStyle.setAlignment(HSSFCellStyle.ALIGN_CENTER);
 
 
         //设置字体
@@ -95,9 +90,34 @@ public abstract class ExcelUtil<T> {
         font.setFontName("宋体");
         font.setBoldweight(HSSFFont.BOLDWEIGHT_NORMAL);//正常显示
         font.setFontHeightInPoints((short)12);//字体大小
-        style.setFont(font);
+        dataStyle.setFont(font);
 
-        return style;
+        styles.put("dataStyle",dataStyle);
+        //标题样式
+        HSSFCellStyle titleStyle = workbook.createCellStyle();
+        //设置底边框;
+        titleStyle.setBorderBottom(HSSFCellStyle.BORDER_THIN);
+        //设置左边框;
+        titleStyle.setBorderLeft(HSSFCellStyle.BORDER_THIN);
+        //设置右边框;
+        titleStyle.setBorderRight(HSSFCellStyle.BORDER_THIN);
+        //设置顶边框;
+        titleStyle.setBorderTop(HSSFCellStyle.BORDER_THIN);
+        //设置自动换行;
+        titleStyle.setWrapText(true);
+        //设置水平对齐的样式为居中对齐;
+        titleStyle.setAlignment(HSSFCellStyle.ALIGN_CENTER);
+
+
+        //设置字体
+        HSSFFont titleFont = workbook.createFont();
+        titleFont.setFontName("宋体");
+        titleFont.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);//粗体显示
+        titleFont.setFontHeightInPoints((short)12);//字体大小
+        titleStyle.setFont(titleFont);
+
+        styles.put("titleStyle",titleStyle);
+        return styles;
     }
 
     /**
