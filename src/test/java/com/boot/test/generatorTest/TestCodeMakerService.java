@@ -1,16 +1,16 @@
 /** */
 package com.boot.test.generatorTest;
-import com.boot.test.common.codemaker.po.CodeMakerCfg;
-import com.boot.test.common.codemaker.service.AbsCodeMakerService;
+
+import com.boot.test.codemaker.po.CodeMakerCfg;
+import com.boot.test.codemaker.service.AbsCodeMakerService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mybatis.spring.SqlSessionTemplate;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.util.StringUtils;
 
+import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -29,8 +29,7 @@ public class TestCodeMakerService extends AbsCodeMakerService {
 	/**
 	 * @设置 单条sql操作模板
 	 */
-	@Autowired
-	@Qualifier("masterDBSqlSessionTemplate")
+	@Resource
 	private SqlSessionTemplate sqlSessionTemplate;
 
 	/**
@@ -42,21 +41,13 @@ public class TestCodeMakerService extends AbsCodeMakerService {
 	 */
 	@Test
 	public void testGenerateCode() throws Exception {
-		String dbName = "agentCore";
+		String dbName = "boot";
 		List<String> tableNames = new ArrayList<String>();
-		// tableNames.add("custAgent");
-		// tableNames.add("custAgentAuditLog");
-		// tableNames.add("custAgentContacts");
-		// tableNames.add("custBankCard");
-		// tableNames.add("custIdCard");
-		//tableNames.add("sysBanner");
-		//tableNames.add("acctCommissionCalc");
-		//tableNames.add("custCompleteInfo");
-		tableNames.add("loanCaseAutoAuditLog");
+		tableNames.add("eventInfo");
 
 		String autherName = "fxz";
-		String subProjectPackage = "com.zealfi.agent.mgmt";
-		String pkgNameModel ="loan";
+		String subProjectPackage = "com.boot.test";
+		String pkgNameModel ="event";
 		String notGenerateFields = "id,createrId,createrName,createTime,modId,modName,modTime,";
 		notGenerateFields += "telEnc,emailEnc,bankCardCodeEnc,bankCardTelEnc,idCardCodeEnc,idCardNameEnc";
 

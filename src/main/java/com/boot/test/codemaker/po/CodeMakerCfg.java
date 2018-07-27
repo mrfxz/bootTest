@@ -1,6 +1,7 @@
 /** */
-package com.boot.test.common.codemaker.po;
+package com.boot.test.codemaker.po;
 
+import java.util.Arrays;
 import java.util.Date;
 import java.util.Map;
 
@@ -39,7 +40,7 @@ public class CodeMakerCfg {
 	private String notGenerateFields = "";
 
 	/** 生成代码的模板路径 */
-	private String templateBasePath = "/codeTemplate";
+	private String templateBasePath = "/static/codeTemplate";
 	/** 不生的模板 */
 	private String[] notGenerateTemplates = {};
 	/** 文件编码 */
@@ -202,4 +203,23 @@ public class CodeMakerCfg {
 		this.fileEncoding = fileEncoding;
 	}
 
+	@Override
+	public String toString() {
+		return "CodeMakerCfg{" +
+				"autherName='" + autherName + '\'' +
+				", createTime=" + createTime +
+				", pkgNameType='" + pkgNameType + '\'' +
+				", pkgNameCompany='" + pkgNameCompany + '\'' +
+				", pkgNameProject='" + pkgNameProject + '\'' +
+				", pkgNameSubProj='" + pkgNameSubProj + '\'' +
+				", pkgNameModel='" + pkgNameModel + '\'' +
+				", customParam=" + customParam +
+				", db='" + db + '\'' +
+				", tableName='" + tableName + '\'' +
+				", notGenerateFields='" + notGenerateFields + '\'' +
+				", templateBasePath='" + templateBasePath + '\'' +
+				", notGenerateTemplates=" + Arrays.toString(notGenerateTemplates) +
+				", fileEncoding='" + fileEncoding + '\'' +
+				'}';
+	}
 }

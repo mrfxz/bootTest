@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.boot.test.poi"})
+@ComponentScan(basePackages = {"com.boot.test"})
 public class PoiApplication {
 
     public static void main(String[] args) {

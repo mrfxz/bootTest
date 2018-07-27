@@ -1,5 +1,5 @@
 /** */
-package com.boot.test.common.codemaker.po;
+package com.boot.test.codemaker.po;
 import com.boot.test.common.base.pojo.BasePojo;
 
 /**
@@ -238,4 +238,23 @@ public class ColumnInfo extends BasePojo {
 		this.ableMakerField = ableMakerField;
 	}
 
+	@Override
+	public String toString() {
+		return "ColumnInfo{" +
+				"db='" + db + '\'' +
+				", tableName='" + tableName + '\'' +
+				", tableComment='" + tableComment + '\'' +
+				", columnName='" + columnName + '\'' +
+				", dataType='" + dataType + '\'' +
+				", colLength=" + colLength +
+				", scale=" + scale +
+				", columnComment='" + columnComment + '\'' +
+				", className='" + className + '\'' +
+				", capClassName='" + capClassName + '\'' +
+				", fieldType='" + fieldType + '\'' +
+				", fieldName='" + fieldName + '\'' +
+				", capFieldName='" + capFieldName + '\'' +
+				", ableMakerField=" + ableMakerField +
+				'}';
+	}
 }

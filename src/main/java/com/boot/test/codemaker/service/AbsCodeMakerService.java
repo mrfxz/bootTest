@@ -1,8 +1,9 @@
 /** */
 package com.boot.test.codemaker.service;
-import com.boot.test.common.codemaker.dao.CodeMakerDao;
-import com.boot.test.common.codemaker.po.CodeMakerCfg;
-import com.boot.test.common.codemaker.po.ColumnInfo;
+
+import com.boot.test.codemaker.dao.CodeMakerDao;
+import com.boot.test.codemaker.po.CodeMakerCfg;
+import com.boot.test.codemaker.po.ColumnInfo;
 import com.github.pagehelper.util.StringUtil;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
@@ -167,7 +168,7 @@ public abstract class AbsCodeMakerService {
 		dataMap.put("pkgNameType", cfg.getPkgNameType());
 		dataMap.put("pkgNameCompany", cfg.getPkgNameCompany());
 		dataMap.put("pkgNameProject", cfg.getPkgNameProject());
-		dataMap.put("pkgNameSubProj", cfg.getPkgNameSubProj());
+//		dataMap.put("pkgNameSubProj", cfg.getPkgNameSubProj());
 		dataMap.put("pkgNameModel", cfg.getPkgNameModel());
 
 		// 项目完整包名
@@ -180,11 +181,7 @@ public abstract class AbsCodeMakerService {
 		}
 		dataMap.put("fullPkgProject", fullPkg);
 
-		// 模块完整包名
-		if (!StringUtil.isEmpty(cfg.getPkgNameSubProj())) {
-			fullPkg += "." + cfg.getPkgNameSubProj();
-		}
-		dataMap.put("fullPkgSubProj", fullPkg);
+
 		if (!StringUtil.isEmpty(cfg.getPkgNameModel())) {
 			fullPkg += "." + cfg.getPkgNameModel();
 		}

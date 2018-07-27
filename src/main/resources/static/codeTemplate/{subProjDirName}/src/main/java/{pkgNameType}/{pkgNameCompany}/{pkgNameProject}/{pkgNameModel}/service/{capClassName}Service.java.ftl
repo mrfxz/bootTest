@@ -2,7 +2,7 @@
 package ${fullPkgModel}.service;
 
 import org.springframework.stereotype.Service;
-import ${fullPkgSubProj}.base.service.BaseService;
+import ${fullPkgProject}.base.service.BaseService;
 import ${fullPkgModel}.dao.${capClassName}Dao;
 import ${fullPkgModel}.pojo.${capClassName}Pojo;
 import ${fullPkgModel}.service.iservice.I${capClassName}Service;

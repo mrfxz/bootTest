@@ -1,3 +1,11 @@
+common:
+      sys-config:
+              cfg-custinfo-check-param: #用户输入资料参数
+                  img-verif-code-length: 4 #图形验证码长度
+                  sms-verif-code-length: 4 #短信验证码长度
+                  login-err-times: 6 #登录失败限制次数
+                  reg-code-click-captcha-code: http://www.baidu.com
+
 # tomcat服务器设置
 server:
        port: 8080
@@ -11,10 +19,16 @@ spring:
                 username: root
                 password: root
 
+       # 修改默认的静态资源存放目录
+     # resources:
+       # static-locations: classpath:/
+
 #mybatis
 mybatis:
-   mapper-locations:  classpath*:com/boot/test/poi/mapper/*.xml
-   type-aliases-package: com.boot.test.poi
+   mapper-locations:  classpath*:com/boot/test/*/sqlmap/*.xml
+   type-aliases-package: com.boot.test
+
+
 
 
 
