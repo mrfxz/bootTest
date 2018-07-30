@@ -2,12 +2,7 @@
 package com.boot.test.common.base.service.iservice;
 import com.boot.test.common.base.pojo.BasePojo;
 
-/**
- * @功能:缓存数据BaseService接口
- * @项目名:dunningCommon
- * @作者:wangjz
- * @日期:2017年8月22日上午11:58:14
- */
+
 public interface IBaseCacheService<P extends BasePojo, R> extends IBaseService<P> {
 
 	/**

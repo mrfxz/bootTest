@@ -5,13 +5,7 @@ import java.util.Date;
 import java.sql.Timestamp;
 
 
-/**
- * @功能:数据基础类
- * @项目名:dunningCommon
- * @作者:wangjz
- * @日期:2017年8月3日上午10:49:01
- * @说明：<pre></pre>
- */
+
 public class BasePojo implements Serializable {
 	/** */
 	private static final long serialVersionUID = 1L;

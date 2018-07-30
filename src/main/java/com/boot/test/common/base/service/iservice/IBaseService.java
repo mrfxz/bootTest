@@ -6,13 +6,7 @@ import com.boot.test.common.base.pojo.BasePojo;
 import java.util.List;
 
 
-/**
- * @功能:
- * @项目名:dunningCommon
- * @作者:wangjz
- * @日期:2017年8月3日上午11:28:23
- * @说明：<pre></pre>
- */
+
 public interface IBaseService<P extends BasePojo> {
 
 	/**

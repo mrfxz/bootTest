@@ -13,13 +13,7 @@ import org.mybatis.spring.SqlSessionTemplate;
 import java.util.List;
 
 
-/**
- * @功能:数据库操作
- * @项目名:dunningCommon
- * @作者:wangjz
- * @日期:2017年8月2日下午5:50:42
- * @说明：<pre></pre>
- */
+
 public abstract class AbsBaseDao<T extends BasePojo> {
 	/** 日志 */
 	protected Logger logger = LogManager.getLogger(this.getClass());

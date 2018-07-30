@@ -6,12 +6,7 @@ import org.springframework.util.StringUtils;
 import java.util.List;
 
 
-/**
- * @功能:编码
- * @项目名:kyloanServer
- * @作者:wangjz
- * @日期:2016年5月31日上午9:28:20
- */
+
 public class Encode {
 	public static void main(String[] args) {
 		System.out.println("19776".hashCode());

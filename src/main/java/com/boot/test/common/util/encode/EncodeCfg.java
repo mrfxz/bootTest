@@ -8,12 +8,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @功能:编码配置
- * @项目名:kyloanServer
- * @作者:wangjz
- * @日期:2016年5月31日上午9:08:29
- */
+
 public class EncodeCfg {
 	/** 方案数量 */
 	public static final int kindsCount = 10;

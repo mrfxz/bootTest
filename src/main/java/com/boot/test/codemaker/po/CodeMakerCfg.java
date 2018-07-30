@@ -5,13 +5,7 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.Map;
 
-/**
- * @功能:
- * @项目名:dunningCommon
- * @作者:wangjz
- * @日期:2017年8月4日下午6:34:05
- * @说明：<pre></pre>
- */
+
 public class CodeMakerCfg {
 	/** 作者 */
 	private String autherName;

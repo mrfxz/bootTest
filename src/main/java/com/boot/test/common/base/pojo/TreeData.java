@@ -3,12 +3,7 @@ package com.boot.test.common.base.pojo;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * @功能:树数据信息
- * @项目:dlkproject
- * @作者:wangjz
- * @日期:2012-11-15下午03:39:21
- */
+
 public class TreeData implements Serializable {
 	/** */
 	private static final long serialVersionUID = 8393433166302520470L;
