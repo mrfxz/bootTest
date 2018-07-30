@@ -1,0 +1,7 @@
+[13:23:02:079] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 6240 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[13:23:02:080] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:659) - No active profile set, falling back to default profiles: default
+[13:23:02:637] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Initializing ProtocolHandler ["http-nio-8080"]
+[13:23:02:637] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Starting service [Tomcat]
+[13:23:02:638] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Starting Servlet Engine: Apache Tomcat/8.5.31
+[13:23:02:655] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Initializing Spring embedded WebApplicationContext
+[13:23:02:929] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Starting ProtocolHandler ["http-nio-8080"]
