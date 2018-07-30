@@ -8,13 +8,7 @@ import org.mybatis.spring.SqlSessionTemplate;
 
 import javax.annotation.Resource;
 
-/**
- * @功能:druid数据库及事务配置
- * @项目名:dunningServer
- * @作者:wangjz
- * @日期:2017年8月2日下午5:50:42
- * @说明：<pre></pre>
- */
+
 public class BaseDao<P extends BasePojo> extends AbsBaseDao<P> {
 
 	/**
