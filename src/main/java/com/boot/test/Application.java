@@ -6,9 +6,9 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages = {"com.boot.test"})
-public class PoiApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(PoiApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 }

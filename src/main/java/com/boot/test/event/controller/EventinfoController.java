@@ -4,11 +4,14 @@ package com.boot.test.event.controller;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import com.boot.test.event.pojo.EventinfoPojo;
 import com.boot.test.base.controller.BaseController;
 import com.boot.test.event.service.iservice.IEventinfoService;
+
+import java.util.List;
 
 /**
  * @功能:【eventinfo 事件表】controller
@@ -31,7 +34,8 @@ public class EventinfoController extends BaseController<EventinfoPojo> {
 	 * @param response
 	 */
 	@RequestMapping("/get")
-	public void get(EventinfoPojo eventinfo, HttpServletRequest request, HttpServletResponse response) {
-
+	@ResponseBody
+	public List<EventinfoPojo> get(EventinfoPojo eventinfo, HttpServletRequest request, HttpServletResponse response) {
+		return eventinfoService.selectList(eventinfo);
 	}
 }

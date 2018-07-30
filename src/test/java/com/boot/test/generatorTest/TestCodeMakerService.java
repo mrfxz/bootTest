@@ -16,13 +16,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * @功能:
- * @项目名:dunningServer
- * @作者:wangjz
- * @日期:2017年8月3日上午11:47:47
- * @说明：<pre></pre>
- */
+
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class TestCodeMakerService extends AbsCodeMakerService {
@@ -43,7 +37,7 @@ public class TestCodeMakerService extends AbsCodeMakerService {
 	public void testGenerateCode() throws Exception {
 		String dbName = "boot";
 		List<String> tableNames = new ArrayList<String>();
-		tableNames.add("eventInfo");
+		tableNames.add("testInfo");
 
 		String autherName = "fxz";
 		String subProjectPackage = "com.boot.test";
