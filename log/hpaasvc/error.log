@@ -10,3 +10,6 @@
 [13:35:03:464] [ERROR] - com.boot.test.event.controller.EventinfoController.get(EventinfoController.java:45) - error test
 [13:35:42:718] [ERROR] - com.boot.test.event.controller.EventinfoController.get(EventinfoController.java:45) - error test
 [13:37:40:118] [ERROR] - com.boot.test.event.controller.EventinfoController.get(EventinfoController.java:45) - error test
+[13:54:48:075] [ERROR] - com.boot.test.event.controller.EventinfoController.get(EventinfoController.java:46) - error test
+[13:55:16:243] [ERROR] - com.boot.test.event.controller.EventinfoController.get(EventinfoController.java:46) - error test
+[13:55:53:899] [ERROR] - com.boot.test.event.controller.EventinfoController.get(EventinfoController.java:46) - error test

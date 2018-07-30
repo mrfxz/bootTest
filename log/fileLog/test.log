@@ -261,3 +261,102 @@
 13:37:40.117 INFO  com.boot.test.event.controller.EventinfoController 43 get - lalala我进来咯
 13:37:40.117 WARN  com.boot.test.event.controller.EventinfoController 44 get - warn test
 13:37:40.118 ERROR com.boot.test.event.controller.EventinfoController 45 get - error test
+13:54:29.700 INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting Application on DESKTOP-VQGHUL9 with PID 13540 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+13:54:29.710 DEBUG org.springframework.boot.StartupInfoLogger 53 logStarting - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+13:54:29.711 INFO  org.springframework.boot.SpringApplication 663 logStartupProfileInfo - The following profiles are active: dev
+13:54:31.430 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing ProtocolHandler ["http-nio-8080"]
+13:54:31.441 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting service [Tomcat]
+13:54:31.441 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting Servlet Engine: Apache Tomcat/8.5.31
+13:54:31.445 INFO  org.apache.juli.logging.DirectJDKLog 180 log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Users\zhu\AppData\Local\Microsoft\WindowsApps;;.]
+13:54:31.542 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring embedded WebApplicationContext
+13:54:31.899 DEBUG com.zaxxer.hikari.HikariConfig 495 setDriverClassName - Driver class com.mysql.jdbc.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6972d8d2
+13:54:31.921 DEBUG org.apache.ibatis.logging.LogFactory 135 setImplementation - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+13:54:31.965 DEBUG org.apache.ibatis.io.VFS 84 getInstance - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+13:54:31.972 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.Application matches criteria [is assignable to Object]
+13:54:31.973 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.base.controller.BaseController matches criteria [is assignable to Object]
+13:54:31.974 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.base.dao.BaseDao matches criteria [is assignable to Object]
+13:54:31.974 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.base.service.BaseCacheService matches criteria [is assignable to Object]
+13:54:31.975 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.base.service.BaseService matches criteria [is assignable to Object]
+13:54:31.976 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.codemaker.dao.CodeMakerDao matches criteria [is assignable to Object]
+13:54:31.977 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.codemaker.po.CodeMakerCfg matches criteria [is assignable to Object]
+13:54:31.978 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.codemaker.po.ColumnInfo matches criteria [is assignable to Object]
+13:54:31.979 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.codemaker.service.AbsCodeMakerService matches criteria [is assignable to Object]
+13:54:31.980 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.base.controller.AbsBaseController matches criteria [is assignable to Object]
+13:54:31.980 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.base.controller.DateConvert matches criteria [is assignable to Object]
+13:54:31.981 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.base.controller.SqlDateConvert matches criteria [is assignable to Object]
+13:54:31.982 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.base.controller.TimestampConvert matches criteria [is assignable to Object]
+13:54:31.983 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.base.dao.AbsBaseDao matches criteria [is assignable to Object]
+13:54:31.983 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.base.pojo.BaseEncodePojo matches criteria [is assignable to Object]
+13:54:31.984 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.base.pojo.BasePojo matches criteria [is assignable to Object]
+13:54:31.984 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.base.pojo.config.CfgCustInfoCheckParam matches criteria [is assignable to Object]
+13:54:31.985 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.base.pojo.config.CfgDunningRadioParam matches criteria [is assignable to Object]
+13:54:31.985 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.base.pojo.config.CfgResAndSessionParam matches criteria [is assignable to Object]
+13:54:31.985 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.base.pojo.config.CfgSysMessageTemplate matches criteria [is assignable to Object]
+13:54:31.985 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.base.pojo.MgmtUser matches criteria [is assignable to Object]
+13:54:31.986 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.base.pojo.OptResult matches criteria [is assignable to Object]
+13:54:31.986 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.base.pojo.ResponseData matches criteria [is assignable to Object]
+13:54:31.987 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.base.pojo.TreeData matches criteria [is assignable to Object]
+13:54:31.988 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.base.service.AbsBaseCacheService matches criteria [is assignable to Object]
+13:54:31.988 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.base.service.AbsBaseService matches criteria [is assignable to Object]
+13:54:31.988 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.base.service.iservice.IBaseCacheService matches criteria [is assignable to Object]
+13:54:31.989 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.base.service.iservice.IBaseService matches criteria [is assignable to Object]
+13:54:31.989 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.util.encode.DataCheck matches criteria [is assignable to Object]
+13:54:31.989 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.util.encode.Encode matches criteria [is assignable to Object]
+13:54:31.990 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.util.encode.EncodeCfg matches criteria [is assignable to Object]
+13:54:31.991 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.common.util.encode.ReplaceObj matches criteria [is assignable to Object]
+13:54:31.993 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.event.controller.EventinfoController matches criteria [is assignable to Object]
+13:54:31.993 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.event.dao.EventinfoDao matches criteria [is assignable to Object]
+13:54:31.995 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.event.pojo.EventinfoPojo matches criteria [is assignable to Object]
+13:54:31.995 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.event.service.EventinfoService matches criteria [is assignable to Object]
+13:54:31.996 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.event.service.iservice.IEventinfoService matches criteria [is assignable to Object]
+13:54:31.996 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.poi.controller.UserController matches criteria [is assignable to Object]
+13:54:31.996 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.poi.dao.EventDao matches criteria [is assignable to Object]
+13:54:31.997 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.poi.dao.UserDao matches criteria [is assignable to Object]
+13:54:31.997 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.poi.pojo.EventPojo matches criteria [is assignable to Object]
+13:54:31.998 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.poi.pojo.UserPojo matches criteria [is assignable to Object]
+13:54:31.999 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.poi.service.EventService matches criteria [is assignable to Object]
+13:54:31.999 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.poi.service.impl.EventExcelService matches criteria [is assignable to Object]
+13:54:32.000 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.poi.service.impl.EventServiceImpl matches criteria [is assignable to Object]
+13:54:32.000 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.poi.service.impl.UserExcelService matches criteria [is assignable to Object]
+13:54:32.000 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.poi.service.impl.UserServiceImpl matches criteria [is assignable to Object]
+13:54:32.001 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.poi.service.UserService matches criteria [is assignable to Object]
+13:54:32.002 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.poi.util.ExcelUtil matches criteria [is assignable to Object]
+13:54:32.002 DEBUG org.apache.ibatis.io.ResolverUtil 256 addIfMatching - Checking to see if class com.boot.test.poi.vo.ExcelCol matches criteria [is assignable to Object]
+13:54:32.211 DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers 60 getDefault - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+13:54:32.212 DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator 89 buildExpressionFactory - Loaded expression factory via original TCCL
+13:54:32.219 DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers 60 getDefault - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+13:54:32.220 DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl 148 messageInterpolator - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+13:54:32.220 DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl 180 constraintValidatorFactory - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+13:54:32.221 DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl 194 parameterNameProvider - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+13:54:32.222 DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser 133 getValidationXmlInputStream - Trying to load META-INF/validation.xml for XML based Validator configuration.
+13:54:32.222 DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper 53 getResettableInputStreamForPath - Trying to load META-INF/validation.xml via user class loader
+13:54:32.222 DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper 60 getResettableInputStreamForPath - Trying to load META-INF/validation.xml via TCCL
+13:54:32.223 DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper 66 getResettableInputStreamForPath - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+13:54:32.223 DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser 140 getValidationXmlInputStream - No META-INF/validation.xml found. Using annotation based configuration only.
+13:54:32.227 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl 578 logValidatorFactoryScopedConfiguration - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+13:54:32.227 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl 579 logValidatorFactoryScopedConfiguration - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+13:54:32.227 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl 580 logValidatorFactoryScopedConfiguration - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+13:54:32.227 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl 581 logValidatorFactoryScopedConfiguration - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+13:54:32.228 DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl 582 logValidatorFactoryScopedConfiguration - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+13:54:33.023 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting ProtocolHandler ["http-nio-8080"]
+13:54:33.036 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Using a shared selector for servlet write/read
+13:54:33.061 INFO  org.springframework.boot.StartupInfoLogger 59 logStarted - Started Application in 4.148 seconds (JVM running for 5.946)
+13:54:48.004 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+13:54:48.074 DEBUG com.boot.test.event.controller.EventinfoController 43 get - debug test
+13:54:48.074 INFO  com.boot.test.event.controller.EventinfoController 44 get - info test
+13:54:48.074 WARN  com.boot.test.event.controller.EventinfoController 45 get - warn test
+13:54:48.075 ERROR com.boot.test.event.controller.EventinfoController 46 get - error test
+13:55:07.883 INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting Application on DESKTOP-VQGHUL9 with PID 13540 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+13:55:07.884 INFO  org.springframework.boot.SpringApplication 663 logStartupProfileInfo - The following profiles are active: uat
+13:55:08.395 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing ProtocolHandler ["http-nio-8080"]
+13:55:08.396 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting service [Tomcat]
+13:55:08.396 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting Servlet Engine: Apache Tomcat/8.5.31
+13:55:08.415 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring embedded WebApplicationContext
+13:55:08.750 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting ProtocolHandler ["http-nio-8080"]
+13:55:08.754 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Using a shared selector for servlet write/read
+13:55:08.765 INFO  org.springframework.boot.StartupInfoLogger 59 logStarted - Started Application in 0.947 seconds (JVM running for 41.651)
+13:55:16.233 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+13:55:16.242 INFO  com.boot.test.event.controller.EventinfoController 44 get - info test
+13:55:16.243 WARN  com.boot.test.event.controller.EventinfoController 45 get - warn test
+13:55:16.243 ERROR com.boot.test.event.controller.EventinfoController 46 get - error test
+13:55:53.899 ERROR com.boot.test.event.controller.EventinfoController 46 get - error test
