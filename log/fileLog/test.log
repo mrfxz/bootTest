@@ -360,3 +360,12 @@
 13:55:16.243 WARN  com.boot.test.event.controller.EventinfoController 45 get - warn test
 13:55:16.243 ERROR com.boot.test.event.controller.EventinfoController 46 get - error test
 13:55:53.899 ERROR com.boot.test.event.controller.EventinfoController 46 get - error test
+14:06:24.852 INFO  org.springframework.boot.StartupInfoLogger 50 logStarting - Starting Application on DESKTOP-VQGHUL9 with PID 13540 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+14:06:24.853 INFO  org.springframework.boot.SpringApplication 663 logStartupProfileInfo - The following profiles are active: uat
+14:06:25.331 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing ProtocolHandler ["http-nio-8080"]
+14:06:25.332 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting service [Tomcat]
+14:06:25.332 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting Servlet Engine: Apache Tomcat/8.5.31
+14:06:25.349 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Initializing Spring embedded WebApplicationContext
+14:06:25.618 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Starting ProtocolHandler ["http-nio-8080"]
+14:06:25.623 INFO  org.apache.juli.logging.DirectJDKLog 180 log - Using a shared selector for servlet write/read
+14:06:25.633 INFO  org.springframework.boot.StartupInfoLogger 59 logStarted - Started Application in 0.843 seconds (JVM running for 718.519)

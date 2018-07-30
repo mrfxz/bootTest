@@ -2,13 +2,7 @@
 package com.boot.test.codemaker.po;
 import com.boot.test.common.base.pojo.BasePojo;
 
-/**
- * @功能:
- * @项目名:dunningCommon
- * @作者:wangjz
- * @日期:2017年8月4日下午7:29:56
- * @说明：<pre></pre>
- */
+
 public class ColumnInfo extends BasePojo {
 	/** */
 	private static final long serialVersionUID = 1L;

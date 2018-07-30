@@ -5,12 +5,7 @@ package com.boot.test.common.base.pojo;
 
 import java.io.Serializable;
 
-/**
- * @功能: request请求返回的数据
- * @项目名:kyloanServer
- * @作者:wangjz
- * @日期:2016年3月21日下午2:26:34
- */
+
 public class ResponseData<T> implements Serializable {
 	/**  */
 	private static final long serialVersionUID = -6146242610931501695L;

@@ -6,14 +6,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 
-/**
- * 
- * @功能:公共controller
- * @项目名:agentCommon
- * @作者:wangjz
- * @日期:2017年8月5日下午2:37:20
- * @说明：<pre></pre>
- */
+
 public abstract class AbsBaseController<T extends BasePojo> {
 	/** 日志对象 */
 	protected Logger logger = LogManager.getLogger(this.getClass());

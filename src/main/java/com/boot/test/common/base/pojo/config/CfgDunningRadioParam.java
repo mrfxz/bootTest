@@ -5,12 +5,7 @@ import org.springframework.stereotype.Component;
 
 import java.io.Serializable;
 
-/**
- * @功能:催收广播参数
- * @项目名:dunningCommon
- * @作者:chuxu
- * @日期:2017年12月28日下午4:06:56
- */
+
 @Component
 @ConfigurationProperties(prefix = "common.sys-config.cfg-sys-message-radio")
 public class CfgDunningRadioParam implements Serializable {

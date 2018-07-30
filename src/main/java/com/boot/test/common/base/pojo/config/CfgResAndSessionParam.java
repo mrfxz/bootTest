@@ -8,12 +8,7 @@ import org.springframework.stereotype.Component;
 
 import java.io.Serializable;
 
-/**
- * @功能:资源与session参数
- * @项目名:moduleCommon
- * @作者:zhangbin@zealfi.com
- * @日期:2018年1月29日上午9:36:34
- */
+
 @Component
 @ConfigurationProperties(prefix = "common.sys-config.cfg-res-and-session-param")
 public class CfgResAndSessionParam implements Serializable {

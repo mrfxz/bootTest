@@ -6,13 +6,7 @@ import java.util.Date;
 import java.util.List;
 
 
-/**
- * @功能:管理员对象
- * @项目名:dunning
- * @作者:wangjz
- * @日期:2017-11-21 18:35:14
- * @说明：<pre></pre>
- */
+
 public class MgmtUser extends BasePojo {
 	/** 序列化UID */
 	private static final long serialVersionUID = 1L;

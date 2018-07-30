@@ -18,13 +18,7 @@ import java.io.OutputStreamWriter;
 import java.util.*;
 import java.util.Map.Entry;
 
-/**
- * @功能:
- * @项目名:dunningCommon
- * @作者:wangjz
- * @日期:2017年8月4日下午6:35:05
- * @说明：<pre></pre>
- */
+
 public abstract class AbsCodeMakerService {
 	/** 日志 */
 	protected Logger logger = LogManager.getLogger(this.getClass());

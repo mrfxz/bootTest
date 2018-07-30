@@ -5,12 +5,7 @@ import org.springframework.stereotype.Component;
 
 import java.io.Serializable;
 
-/**
- * @功能:系统消息模板
- * @项目名:dunningCommon
- * @作者:chuxu
- * @日期:2017年12月28日下午5:07:29
- */
+
 @Component
 @ConfigurationProperties(prefix = "sys-message-cfg.template")
 public class CfgSysMessageTemplate implements Serializable {

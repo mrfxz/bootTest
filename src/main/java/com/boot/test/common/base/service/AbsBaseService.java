@@ -9,13 +9,7 @@ import org.apache.logging.log4j.Logger;
 import java.util.List;
 
 
-/**
- * @功能:server父类
- * @项目名:xd
- * @作者:wangjz
- * @日期:2017年8月3日上午11:28:23
- * @说明：<pre></pre>
- */
+
 public abstract class AbsBaseService<P extends BasePojo, D extends AbsBaseDao<P>> implements IBaseService<P> {
 
 	/** 日志 */

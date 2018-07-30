@@ -3,12 +3,7 @@
  */
 package com.boot.test.common.util.encode;
 
-/**
- * @功能:互换对象
- * @项目名:kyloanServer
- * @作者:wangjz
- * @日期:2016年5月31日上午9:11:53
- */
+
 public class ReplaceObj {
 	/** 互换对象内容1 */
 	private String str1;

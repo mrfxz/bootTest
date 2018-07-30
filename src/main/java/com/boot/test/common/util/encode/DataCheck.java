@@ -6,12 +6,7 @@ import org.springframework.util.StringUtils;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * @功能:
- * @项目名:bdfarm
- * @作者:wangjz
- * @日期:2015年7月6日下午2:13:42
- */
+
 public class DataCheck {
 	/** 日志对象 */
 

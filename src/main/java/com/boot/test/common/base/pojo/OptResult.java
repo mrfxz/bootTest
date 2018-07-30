@@ -8,12 +8,7 @@ import org.apache.logging.log4j.Logger;
 import java.io.Serializable;
 
 
-/**
- * @功能:操作结果
- * @项目名:kyloanServer
- * @作者:wangjz
- * @日期:2016年3月21日下午2:30:42
- */
+
 public class OptResult implements Serializable {
 	/**  */
 	private static final long serialVersionUID = -9083945338995608354L;

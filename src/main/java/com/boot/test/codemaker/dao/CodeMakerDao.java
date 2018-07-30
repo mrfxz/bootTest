@@ -9,13 +9,7 @@ import org.mybatis.spring.SqlSessionTemplate;
 import java.util.List;
 
 
-/**
- * @功能:
- * @项目名:xdTransactionServer
- * @作者:wangjz
- * @日期:2017年8月3日上午11:23:08
- * @说明：<pre></pre>
- */
+
 @Mapper
 public class CodeMakerDao extends AbsBaseDao<ColumnInfo> {
 	/**
