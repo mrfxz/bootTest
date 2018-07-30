@@ -1,0 +1,8 @@
+[13:23:39:476] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Using a shared selector for servlet write/read
+[13:23:39:491] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.09 seconds (JVM running for 5330.08)
+[13:23:46:327] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180) - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[13:23:46:335] [INFO] - com.boot.test.event.controller.EventinfoController.get(EventinfoController.java:43) - lalala我进来咯
+[13:23:46:335] [WARN] - com.boot.test.event.controller.EventinfoController.get(EventinfoController.java:44) - warn test
+[13:23:46:336] [ERROR] - com.boot.test.event.controller.EventinfoController.get(EventinfoController.java:45) - error test
+[13:23:47:676] [INFO] - com.boot.test.event.controller.EventinfoController.get(EventinfoController.java:43) - lalala我进来咯
+[13:23:47:676] [WARN] - com.boot.test.event.controller.EventinfoController.get(EventinfoController.java:44) - warn test

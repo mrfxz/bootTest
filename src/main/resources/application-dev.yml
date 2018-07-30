@@ -14,9 +14,6 @@ server:
        port: 8080
 
 spring:
-      #多环境配置
-      profiles:
-        active: pro
        # profiles:active: dev 指定运行环境,一般用于开发,测试,线上环境配置文件的切换
       datasource:
                 #基本属性
