@@ -40,10 +40,8 @@ public class EventinfoController extends BaseController<EventinfoPojo> {
 	@RequestMapping("/get")
 	@ResponseBody
 	public List<EventinfoPojo> get(EventinfoPojo eventinfo, HttpServletRequest request, HttpServletResponse response) {
-		logger.debug("debug test");
-		logger.info("info test");
-		logger.warn("warn test");
-		logger.error("error test");
+		
+		System.out.println("蛋疼");
 		return null;
 	}
 }

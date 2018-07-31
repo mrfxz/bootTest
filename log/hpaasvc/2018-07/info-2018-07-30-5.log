@@ -1,9 +1,0 @@
-[13:24:55:125] [ERROR] - com.boot.test.event.controller.EventinfoController.get(EventinfoController.java:45) - error test
-[13:24:56:300] [INFO] - com.boot.test.event.controller.EventinfoController.get(EventinfoController.java:43) - lalala我进来咯
-[13:24:56:301] [WARN] - com.boot.test.event.controller.EventinfoController.get(EventinfoController.java:44) - warn test
-[13:24:56:301] [ERROR] - com.boot.test.event.controller.EventinfoController.get(EventinfoController.java:45) - error test
-[13:24:57:331] [INFO] - com.boot.test.event.controller.EventinfoController.get(EventinfoController.java:43) - lalala我进来咯
-[13:24:57:331] [WARN] - com.boot.test.event.controller.EventinfoController.get(EventinfoController.java:44) - warn test
-[13:24:57:415] [ERROR] - com.boot.test.event.controller.EventinfoController.get(EventinfoController.java:45) - error test
-[13:24:58:650] [INFO] - com.boot.test.event.controller.EventinfoController.get(EventinfoController.java:43) - lalala我进来咯
-[13:24:58:651] [WARN] - com.boot.test.event.controller.EventinfoController.get(EventinfoController.java:44) - warn test
