@@ -7,8 +7,6 @@ common:
                   login-err-times: 6 #登录失败限制次数
                   reg-code-click-captcha-code: http://www.baidu.com
 
-logging:
-        config: classpath:log4j2_dev.xml
 # tomcat服务器设置
 server:
        port: 8080
@@ -16,12 +14,12 @@ server:
 spring:
       #多环境配置
       profiles:
-        active: uat
+        active: dev
        # profiles:active: dev 指定运行环境,一般用于开发,测试,线上环境配置文件的切换
       datasource:
                 #基本属性
-                driver-class-name: com.mysql.jdbc.Driver
-                url: jdbc:mysql://127.0.0.1:3306/boot?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+                driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+                url: jdbc:log4jdbc:mysql://127.0.0.1:3306/boot?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
                 username: root
                 password: root
 
