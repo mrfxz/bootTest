@@ -36,11 +36,10 @@
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
 
-
-        <!--去掉spring默认的logging-->
+        <!-- 日志 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
             <exclusions>
                 <exclusion>
                     <groupId>org.springframework.boot</groupId>
