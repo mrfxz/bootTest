@@ -4,8 +4,8 @@ package com.boot.test.event.controller;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -30,7 +30,7 @@ public class EventinfoController extends BaseController<EventinfoPojo> {
     @Autowired
     private IEventinfoService eventinfoService;
 
-    private Logger logger = LogManager.getLogger(this.getClass());
+    private Logger logger = LoggerFactory.getLogger(this.getClass());
   	/**
 	 * get
 	 * @param eventinfo
@@ -39,9 +39,15 @@ public class EventinfoController extends BaseController<EventinfoPojo> {
 	 */
 	@RequestMapping("/get")
 	@ResponseBody
-	public List<EventinfoPojo> get(EventinfoPojo eventinfo, HttpServletRequest request, HttpServletResponse response) {
-		
-		System.out.println("蛋疼");
+	public List<EventinfoPojo> get(EventinfoPojo eventinfo, HttpServletRequest request, HttpServletResponse response){
+        try{
+            eventinfoService.aopTest();
+        }catch(Exception e){}
+
 		return null;
 	}
+    @RequestMapping("/update")
+	public void update(EventinfoPojo eventinfo, HttpServletRequest request, HttpServletResponse response){
+        eventinfoService.updateEvent(eventinfo);
+    }
 }

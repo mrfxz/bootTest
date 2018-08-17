@@ -16,5 +16,12 @@ import com.boot.test.event.service.iservice.IEventinfoService;
  */
 @Service
 public class EventinfoService extends BaseService<EventinfoPojo, EventinfoDao> implements IEventinfoService {
+    @Override
+    public void updateEvent(EventinfoPojo pojo) {
+        dao.update(pojo);
+    }
 
+    public void aopTest(){
+        System.out.println("=============目标aopTest==============");
+    }
 }

@@ -23,7 +23,7 @@
 	</Appenders>
 
 	<Loggers>
-		<Logger name="com.zealfi" level="info" additivity="false">
+		<Logger name="com.boot.test" level="info" additivity="false">
 			<AppenderRef ref="console" />
 			<AppenderRef ref="rollingFileInfo" />
 		</Logger>
@@ -33,7 +33,7 @@
 			<!--参考 net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator(ACCEPT:同意 NEUTRAL：中立 DENY：拒绝) -->
 			<MarkerFilter marker="LOG4JDBC_SQL" onMatch="ACCEPT" onMismatch="DENY" />
 			<MarkerFilter marker="LOG4JDBC_SELECT" onMatch="ACCEPT" onMismatch="DENY" />
-		 </Logger>
+		</Logger>
 
 		<Root level="warn">
 			<AppenderRef ref="rollingFileInfo" />

@@ -4,8 +4,9 @@ package com.boot.test.common.base.service;
 import com.boot.test.common.base.dao.AbsBaseDao;
 import com.boot.test.common.base.pojo.BasePojo;
 import com.boot.test.common.base.service.iservice.IBaseService;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.List;
 
 
@@ -13,7 +14,7 @@ import java.util.List;
 public abstract class AbsBaseService<P extends BasePojo, D extends AbsBaseDao<P>> implements IBaseService<P> {
 
 	/** 日志 */
-	protected Logger logger = LogManager.getLogger(this.getClass());
+	private Logger logger = LoggerFactory.getLogger(this.getClass());
 	/** dao工具 */
 	protected D dao;
 

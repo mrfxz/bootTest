@@ -7,9 +7,9 @@ import com.boot.test.codemaker.po.ColumnInfo;
 import com.github.pagehelper.util.StringUtil;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.mybatis.spring.SqlSessionTemplate;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
 
 import java.io.File;
@@ -21,7 +21,7 @@ import java.util.Map.Entry;
 
 public abstract class AbsCodeMakerService {
 	/** 日志 */
-	protected Logger logger = LogManager.getLogger(this.getClass());
+	private Logger logger = LoggerFactory.getLogger(this.getClass());
 	public static Map<String, String> dataTypeConverCfg = new HashMap<String, String>();
 
 	/**

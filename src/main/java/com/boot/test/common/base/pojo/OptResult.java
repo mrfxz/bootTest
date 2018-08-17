@@ -3,7 +3,8 @@
  */
 package com.boot.test.common.base.pojo;
 
-import org.apache.logging.log4j.Logger;
+
+import org.slf4j.Logger;
 
 import java.io.Serializable;
 

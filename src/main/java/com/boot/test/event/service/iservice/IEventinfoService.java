@@ -12,5 +12,7 @@ import com.boot.test.event.pojo.EventinfoPojo;
  * @说明：<pre></pre>
  */
 public interface IEventinfoService extends IBaseService<EventinfoPojo> {
+    public void aopTest();
 
+    public void updateEvent(EventinfoPojo pojo);
 }
