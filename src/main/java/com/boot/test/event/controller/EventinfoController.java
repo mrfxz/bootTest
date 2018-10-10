@@ -4,6 +4,8 @@ package com.boot.test.event.controller;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.boot.test.mail.javaMailUtil;
+import com.boot.test.mail.javaMailUtil2;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -50,4 +52,14 @@ public class EventinfoController extends BaseController<EventinfoPojo> {
 	public void update(EventinfoPojo eventinfo, HttpServletRequest request, HttpServletResponse response){
         eventinfoService.updateEvent(eventinfo);
     }
+	@RequestMapping("/sendMail")
+    public void sendMail(){
+		javaMailUtil2 mail = new javaMailUtil2();
+		try{
+			mail.init();
+		}catch (Exception e){
+			System.out.println(e);
+		}
+
+	}
 }
