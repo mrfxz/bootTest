@@ -12,3 +12,25 @@ spring:
     username: superZhu
     password: a123456
 
+#mybatis
+mybatis:
+   mapper-locations:  classpath*:com/boot/test/*/sqlmap/*.xml
+   type-aliases-package: com.boot.test
+
+#redis配置
+redisCfg:
+       redisPoolCfg:
+           minIdle: 1 #可以在池中保持空闲的最小连接数
+           maxIdle: 10 #可以在池中保持空闲的最大连接数
+           maxTotal: 50 #最大连接数
+           maxWaitMillis: 60000 # 如果没有可用连接,在抛出异常前等待的一个连接被归还的最大毫秒数，设置为-1， 设为-1无限制
+           testWhileIdle: false # 申请连接的时候检测
+           testOnCreate: false
+           testOnBorrow: false # 申请连接时执行validationQuery检测连接是否有效，配置为true会降低性能
+           testOnReturn: false # 归还连接时执行validationQuery检测连接是否有效，配置为true会降低性能
+       redisShardCfg:
+           connectionTimeout: 60000
+           soTimeout: 60000
+       hostsCfg:
+           - redis:127.0.0.1:6379
+
