@@ -163,10 +163,11 @@
             <artifactId>spring-boot-starter-freemarker</artifactId>
         </dependency>
 
+        <!--注解 ConfigrationProperties 依赖-->
         <dependency>
-            <groupId> org.springframework.boot </groupId>
-            <artifactId> spring-boot-configuration-processor </artifactId>
-            <optional> true </optional>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
         </dependency>
 
         <dependency>

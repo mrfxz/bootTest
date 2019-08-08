@@ -1,38 +1,24 @@
-common:
-      sys-config:
-              cfg-custinfo-check-param: #用户输入资料参数
-                  img-verif-code-length: 4 #图形验证码长度
-                  sms-verif-code-length: 4 #短信验证码长度
-                  login-err-times: 6 #登录失败限制次数
-                  reg-code-click-captcha-code: http://www.baidu.com
-
+#log4j2配置文件path
 logging:
-        config: classpath:log4j2_uat.xml
-# tomcat服务器设置
-server:
-       port: 8080
+  config: classpath:log4j2_dev.xml
 
+#mysql配置
+mysql:
+  host: 192.168.1.67:3306
+  username: centOs
+  password: Switch1#
+
+# rabbitMQ配置
 spring:
-       # profiles:active: dev 指定运行环境,一般用于开发,测试,线上环境配置文件的切换
-      datasource:
-                #基本属性
-                driver-class-name: com.mysql.jdbc.Driver
-                url: jdbc:mysql://127.0.0.1:3306/boot?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
-                username: root
-                password: root
+  application:
+    name: spring-boot-rabbitmq
+  rabbitmq:
+    host: 192.168.1.67
+    port: 5672
+    username: superZhu
+    password: a123456
 
-       # 修改默认的静态资源存放目录
-     # resources:
-       # static-locations: classpath:/
-
-#mybatis
-mybatis:
-   mapper-locations:  classpath*:com/boot/test/*/sqlmap/*.xml
-   type-aliases-package: com.boot.test
-
-
-
-
-
-
+# redis配置
+redis:
+  host: 192.168.1.67
 

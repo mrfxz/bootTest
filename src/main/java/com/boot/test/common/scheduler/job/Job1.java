@@ -7,12 +7,7 @@ import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 import org.springframework.stereotype.Component;
 
-/**
- * @功能:
- * @项目名:serviceMgmt
- * @作者:chuxu
- * @日期:2018年2月27日上午11:07:53
- */
+
 @Component
 @DisallowConcurrentExecution
 public class Job1 implements Job{
@@ -22,11 +17,7 @@ public class Job1 implements Job{
 	public Job1() {
 		taskTool = new SchedulerTool();
 	}
-	
-	/**
-	 * 人工审核自动归档定时任务：审核推荐人归档
-	 * 将审核中超过一天的案件自动归档
-	 */
+
 
 	@Override
 	public void execute(JobExecutionContext context) throws JobExecutionException {

@@ -27,7 +27,7 @@ public class ApplicationStartQuartzJobListener implements ApplicationListener<Co
 	@Override
 	public void onApplicationEvent(ContextRefreshedEvent event) {
 		try {
-			manager.startAll();
+//			manager.startAll();
 		} catch (Exception e) {
 			logger.info("启动定时任务出错:" + e);
 		}

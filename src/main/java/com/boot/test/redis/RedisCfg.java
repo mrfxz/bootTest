@@ -6,7 +6,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 import redis.clients.jedis.JedisPoolConfig;
 import redis.clients.jedis.JedisShardInfo;
 import redis.clients.jedis.ShardedJedisPool;
@@ -15,10 +15,9 @@ import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-
-@Configuration
-@ConfigurationProperties(prefix = "RedisCfg")
-public abstract class RedisCfg {
+@Component
+@ConfigurationProperties(prefix = "redis-cfg")
+public class RedisCfg {
 	/** 日志 */
 	protected Logger logger = LogManager.getLogger(this.getClass());
 	/** redis连接池配置参数 */
@@ -28,19 +27,14 @@ public abstract class RedisCfg {
 	/** 数据源参数 */
 	private List<String> hostsCfg;
 
-	/**
-	 * 得到RedisDao
-	 * 
-	 * @return
-	 */
-	public abstract RedisDao getRedisDao() throws Exception;
 
 	/**
 	 * 初始化Bean
 	 */
 	@Bean(name = "myRedisDao")
 	public RedisDao generateRedisDao() throws Exception {
-		return this.generateRedisDao(1);
+		System.out.println("初始化redis>>>>>>>>>>>>>>>>>>>>>>");
+		return this.generateRedisDao(0);
 	}
 
 	/**

@@ -18,7 +18,7 @@ public class RedisTest {
 
     @Test
     public void test1(){
-        dao.saveOrUpdate("hello","Hello World");
+        dao.saveOrUpdate("hello","lalala");
         String hello = dao.get("hello", String.class);
         System.out.println("Redis 取值为： " + hello);
     }

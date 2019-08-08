@@ -5,14 +5,14 @@ server:
 spring:
       #多环境配置
       profiles:
-        active: dev
+        active: uat
        # profiles:active: dev 指定运行环境,一般用于开发,测试,线上环境配置文件的切换
       datasource:
                 #基本属性
                 driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
-                url: jdbc:log4jdbc:mysql://127.0.0.1:3306/boot?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
-                username: root
-                password: root
+                url: jdbc:log4jdbc:mysql://${mysql.host}/boot?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+                username: ${mysql.username}
+                password: ${mysql.password}
 
                 ###################以下为druid增加的配置###########################
                 druid:
@@ -42,6 +42,30 @@ spring:
                    useGlobalDataSourceStat: true
                 ###############以上为配置druid添加的配置########################################
 
+
        # 修改默认的静态资源存放目录
      # resources:
        # static-locations: classpath:/
+
+#redis配置
+redis-cfg:
+   redisPoolCfg:
+     minIdle: 1 #可以在池中保持空闲的最小连接数
+     maxIdle: 10 #可以在池中保持空闲的最大连接数
+     maxTotal: 50 #最大连接数
+     maxWaitMillis: 60000 # 如果没有可用连接,在抛出异常前等待的一个连接被归还的最大毫秒数，设置为-1， 设为-1无限制
+     testWhileIdle: false # 申请连接的时候检测
+     testOnCreate: false
+     testOnBorrow: false # 申请连接时执行validationQuery检测连接是否有效，配置为true会降低性能
+     testOnReturn: false # 归还连接时执行validationQuery检测连接是否有效，配置为true会降低性能
+   redisShardCfg:
+     connectionTimeout: 60000
+     soTimeout: 60000
+   hostsCfg:
+     - ${redis.host}
+
+
+#mybatis
+mybatis:
+   mapper-locations:  classpath*:com/boot/test/*/sqlmap/*.xml
+   type-aliases-package: com.boot.test
