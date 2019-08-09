@@ -2,6 +2,12 @@
 logging:
   config: classpath:log4j2_dev.xml
 
+#mysql配置
+mysql:
+  host: 127.0.0.1:3306
+  username: root
+  password: root
+
 # rabbitMQ配置
 spring:
   application:
@@ -11,4 +17,10 @@ spring:
     port: 5672
     username: superZhu
     password: a123456
+
+# redis配置
+redis:
+  host: 127.0.0.1
+
+
 
