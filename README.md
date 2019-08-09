@@ -19,5 +19,5 @@ springboot + mybatis 项目搭建
 	7 整合rabbitmq,新增注解方式rabbitmq 5种队列demo
 
 2019-08-09添加新的功能：
-	7 整合redis,实现对redis简单的存取操作
+	8 整合redis,实现对redis简单的存取操作
 		  
