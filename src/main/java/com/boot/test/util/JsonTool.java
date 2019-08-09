@@ -204,18 +204,5 @@ public class JsonTool {
 
 	public static void main(String[] args) throws UnsupportedEncodingException {
 
-		Map<String, Object> map = new HashMap<String, Object>();
-		map.put("name", "wangjz");
-		map.put("age", 1);
-		map.put("birthday", new java.util.Date());
-		map.put("modTime", new java.sql.Timestamp(System.currentTimeMillis()));
-
-		String str = JsonTool.getString(map);
-		System.out.println(str);
-
-		Map<String, Object> map2 = JsonTool.getMap(str, String.class, Object.class);
-		System.out.println(map2.get("name"));
-		Map<String, Object> map3 = JsonTool.getTypeRefObject(str, new TypeReference<Map<String, Object>>() {});
-		System.out.println(map3.get("name"));
 	}
 }

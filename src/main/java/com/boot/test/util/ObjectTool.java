@@ -108,23 +108,6 @@ public class ObjectTool {
 	}
 
 	public static void main(String[] args) throws Exception {
-		// JedisPoolConfig cfg = new JedisPoolConfig();
-		// HashMap<String, Object> map = new HashMap<String, Object>();
-		// map.put("minIdle", 1);
-		// ObjectTool.setValue(cfg, map);
-		// System.out.println(JsonTool.getString(cfg));
-
-		String s = null;
-		System.out.println(isEmpty(s));
-		s = "";
-		System.out.println(isEmpty(s));
-
-		List<String> list = null;
-		System.out.println(isEmpty(list));
-		list = new ArrayList<String>();
-		System.out.println(isEmpty(list));
-		list.add(s);
-		System.out.println(isEmpty(list));
 
 	}
 }

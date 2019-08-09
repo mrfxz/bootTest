@@ -33,7 +33,6 @@ public class RedisCfg {
 	 */
 	@Bean(name = "myRedisDao")
 	public RedisDao generateRedisDao() throws Exception {
-		System.out.println("初始化redis>>>>>>>>>>>>>>>>>>>>>>");
 		return this.generateRedisDao(0);
 	}
 

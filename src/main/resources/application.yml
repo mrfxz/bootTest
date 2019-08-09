@@ -5,7 +5,7 @@ server:
 spring:
       #多环境配置
       profiles:
-        active: uat
+        active: dev
        # profiles:active: dev 指定运行环境,一般用于开发,测试,线上环境配置文件的切换
       datasource:
                 #基本属性
