@@ -1,3 +1,0 @@
-[14:26:13:025] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10772 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
-[14:26:13:055] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
-[14:26:19:397] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 7.58 seconds (JVM running for 12.464)

@@ -21,5 +21,5 @@ springboot + mybatis 项目搭建
 2019-08-09添加新的功能：
 	8 整合redis,实现对redis简单的存取操作
 2019-08-14添加新的功能：
-	8 整合springcloud,实现eureka服务注册中心和feign服务接口访问
+    9 整合springcloud,实现eureka服务注册中心和feign服务接口访问
 		  

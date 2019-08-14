@@ -1,2 +1,0 @@
-[15:47:10:966] [WARN] - org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:264) - Could not examine class 'com/boot/test/mail/javaMailUtil$1.class' due to a java.lang.ClassNotFoundException with message: com.boot.test.mail.javaMailUtil$1
-[15:47:10:995] [WARN] - org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:264) - Could not examine class 'com/boot/test/mail/javaMailUtil.class' due to a java.lang.ClassNotFoundException with message: com.boot.test.mail.javaMailUtil
