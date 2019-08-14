@@ -1,0 +1,610 @@
+[15:24:29:121] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 13188 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:24:29:183] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:24:36:955] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 1. SELECT 1 FROM DUAL  {executed in 15 ms}
+[15:24:36:995] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 2. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:24:37:010] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 3. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:24:37:022] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 4. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:24:37:032] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 5. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:24:40:153] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 13.463 seconds (JVM running for 19.063)
+[15:31:01:085] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 13188 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:31:01:086] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:31:05:367] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 6. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:31:05:380] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 7. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:31:05:391] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 8. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:31:05:406] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 9. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:31:05:418] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 10. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:31:07:037] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 6.071 seconds (JVM running for 405.948)
+[15:34:04:998] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 11228 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:34:05:002] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:34:07:909] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 1. SELECT 1 FROM DUAL  {executed in 1 ms}
+[15:34:07:931] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 2. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:34:07:946] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 3. SELECT 1 FROM DUAL  {executed in 1 ms}
+[15:34:08:020] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 4. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:34:08:043] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 5. SELECT 1 FROM DUAL  {executed in 1 ms}
+[15:34:09:357] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 5.022 seconds (JVM running for 7.008)
+[15:35:38:277] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 12708 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:35:38:283] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:35:42:069] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 1. SELECT 1 FROM DUAL  {executed in 1 ms}
+[15:35:42:092] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 2. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:35:42:104] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 3. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:35:42:117] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 4. SELECT 1 FROM DUAL  {executed in 1 ms}
+[15:35:42:129] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 5. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:35:44:137] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 6.725 seconds (JVM running for 9.144)
+[15:36:14:130] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 12708 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:36:14:131] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:36:15:680] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 6. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:36:15:693] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 7. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:36:15:709] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 8. SELECT 1 FROM DUAL  {executed in 1 ms}
+[15:36:15:727] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 9. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:36:15:740] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 10. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:36:16:605] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.558 seconds (JVM running for 41.612)
+[15:39:34:922] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:39:34:929] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:39:38:495] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 1. SELECT 1 FROM DUAL  {executed in 1 ms}
+[15:39:38:527] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 2. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:39:38:545] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 3. SELECT 1 FROM DUAL  {executed in 1 ms}
+[15:39:38:562] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 4. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:39:38:575] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 5. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:39:40:416] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 6.343 seconds (JVM running for 9.57)
+[15:42:42:645] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:42:42:646] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:42:44:534] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 6. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:42:44:549] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 7. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:42:44:564] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 8. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:42:44:584] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 9. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:42:44:598] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 10. SELECT 1 FROM DUAL  {executed in 1 ms}
+[15:42:45:782] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 3.269 seconds (JVM running for 194.936)
+[15:43:53:623] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:43:53:625] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:43:55:333] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 11. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:43:55:348] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 12. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:43:55:362] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 13. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:43:55:378] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 14. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:43:55:391] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 15. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:43:56:581] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 3.173 seconds (JVM running for 265.735)
+[15:44:57:596] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:44:57:597] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:44:59:351] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 16. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:44:59:367] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 17. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:44:59:381] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 18. SELECT 1 FROM DUAL  {executed in 1 ms}
+[15:44:59:394] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 19. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:44:59:409] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 20. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:45:00:390] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.927 seconds (JVM running for 329.545)
+[15:45:23:685] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:45:23:686] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:45:25:373] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 21. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:45:25:387] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 22. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:45:25:400] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 23. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:45:25:413] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 24. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:45:25:426] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 25. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:45:26:576] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 3.002 seconds (JVM running for 355.731)
+[15:45:50:754] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:45:50:754] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:45:52:501] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 26. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:45:52:510] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 27. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:45:52:520] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 28. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:45:52:531] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 29. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:45:52:540] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 30. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:45:53:153] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.498 seconds (JVM running for 382.307)
+[15:45:58:212] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:45:58:212] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:45:59:303] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 31. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:45:59:313] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 32. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:45:59:325] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 33. SELECT 1 FROM DUAL  {executed in 1 ms}
+[15:45:59:336] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 34. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:45:59:347] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 35. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:46:00:201] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.064 seconds (JVM running for 389.355)
+[15:47:08:924] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:47:08:924] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:47:10:650] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 36. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:47:10:664] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 37. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:47:10:679] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 38. SELECT 1 FROM DUAL  {executed in 1 ms}
+[15:47:10:692] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 39. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:47:10:704] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 40. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:47:10:966] [WARN] - org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:264) - Could not examine class 'com/boot/test/mail/javaMailUtil$1.class' due to a java.lang.ClassNotFoundException with message: com.boot.test.mail.javaMailUtil$1
+[15:47:10:995] [WARN] - org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:264) - Could not examine class 'com/boot/test/mail/javaMailUtil.class' due to a java.lang.ClassNotFoundException with message: com.boot.test.mail.javaMailUtil
+[15:47:12:486] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 3.642 seconds (JVM running for 461.641)
+[15:47:14:406] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:47:14:407] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:47:15:863] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 41. SELECT 1 FROM DUAL  {executed in 1 ms}
+[15:47:15:873] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 42. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:47:15:882] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 43. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:47:15:891] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 44. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:47:15:899] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 45. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:47:16:486] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.145 seconds (JVM running for 465.641)
+[15:50:32:332] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:50:32:332] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:50:34:174] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 46. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:50:34:185] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 47. SELECT 1 FROM DUAL  {executed in 1 ms}
+[15:50:34:195] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 48. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:50:34:208] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 49. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:50:34:219] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 50. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:50:35:037] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.794 seconds (JVM running for 664.191)
+[15:56:17:000] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:56:17:001] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:56:18:342] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 51. SELECT 1 FROM DUAL  {executed in 1 ms}
+[15:56:18:350] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 52. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:56:18:359] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 53. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:56:18:367] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 54. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:56:18:375] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 55. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:56:19:217] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.341 seconds (JVM running for 1008.371)
+[15:57:47:196] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:57:47:196] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:57:48:456] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 56. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:57:48:467] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 57. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:57:48:478] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 58. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:57:48:488] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 59. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:57:48:500] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 60. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:57:49:535] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.41 seconds (JVM running for 1098.689)
+[15:58:24:290] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:58:24:290] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:58:26:354] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 61. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:58:26:366] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 62. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:58:26:378] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 63. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:58:26:402] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 64. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:58:26:415] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 65. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:58:28:502] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 4.399 seconds (JVM running for 1137.656)
+[15:58:44:079] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:58:44:079] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:58:45:854] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 66. SELECT 1 FROM DUAL  {executed in 1 ms}
+[15:58:45:863] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 67. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:58:45:870] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 68. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:58:45:879] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 69. SELECT 1 FROM DUAL  {executed in 1 ms}
+[15:58:45:887] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 70. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:58:46:389] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.381 seconds (JVM running for 1155.543)
+[15:58:53:651] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:58:53:652] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:58:55:077] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 71. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:58:55:088] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 72. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:58:55:098] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 73. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:58:55:109] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 74. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:58:55:120] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 75. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:58:55:854] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.277 seconds (JVM running for 1165.009)
+[15:58:58:937] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:58:58:938] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:59:00:468] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 76. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:00:477] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 77. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:00:486] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 78. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:00:495] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 79. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:00:504] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 80. SELECT 1 FROM DUAL  {executed in 1 ms}
+[15:59:01:683] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.81 seconds (JVM running for 1170.838)
+[15:59:15:469] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:59:15:470] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:59:17:277] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 81. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:17:287] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 82. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:17:296] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 83. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:17:307] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 84. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:17:318] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 85. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:19:001] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 3.596 seconds (JVM running for 1188.155)
+[15:59:20:800] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:59:20:800] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:59:22:656] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 86. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:22:668] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 87. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:22:678] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 88. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:22:689] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 89. SELECT 1 FROM DUAL  {executed in 1 ms}
+[15:59:22:699] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 90. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:23:912] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 3.171 seconds (JVM running for 1193.067)
+[15:59:25:950] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:59:25:951] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:59:27:330] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 91. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:27:337] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 92. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:27:345] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 93. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:27:352] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 94. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:27:360] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 95. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:27:839] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.943 seconds (JVM running for 1196.993)
+[15:59:51:635] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[15:59:51:635] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[15:59:53:294] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 96. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:53:307] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 97. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:53:318] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 98. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:53:329] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 99. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:53:340] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 100. SELECT 1 FROM DUAL  {executed in 0 ms}
+[15:59:53:898] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.32 seconds (JVM running for 1223.053)
+[16:00:16:927] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:00:16:927] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:00:19:033] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 101. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:00:19:044] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 102. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:00:19:057] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 103. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:00:19:066] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 104. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:00:19:073] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 105. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:00:19:632] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.798 seconds (JVM running for 1248.787)
+[16:00:33:063] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:00:33:063] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:00:34:774] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 106. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:00:34:787] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 107. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:00:34:798] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 108. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:00:34:817] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 109. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:00:34:835] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 110. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:00:36:204] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 3.19 seconds (JVM running for 1265.358)
+[16:00:38:023] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:00:38:023] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:00:39:051] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 111. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:00:39:059] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 112. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:00:39:068] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 113. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:00:39:079] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 114. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:00:39:089] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 115. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:00:40:007] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.037 seconds (JVM running for 1269.161)
+[16:00:59:439] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:00:59:439] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:01:01:209] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 116. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:01:01:220] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 117. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:01:01:232] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 118. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:01:01:243] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 119. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:01:01:262] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 120. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:01:01:977] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.605 seconds (JVM running for 1291.132)
+[16:01:05:899] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:01:05:899] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:01:07:744] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 121. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:01:07:751] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 122. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:01:07:759] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 123. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:01:07:766] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 124. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:01:07:772] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 125. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:01:08:232] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.406 seconds (JVM running for 1297.386)
+[16:01:16:336] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:01:16:337] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:01:17:533] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 126. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:01:17:543] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 127. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:01:17:552] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 128. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:01:17:561] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 129. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:01:17:568] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 130. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:01:18:213] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.933 seconds (JVM running for 1307.367)
+[16:01:29:597] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 10476 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:01:29:598] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:01:30:978] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 131. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:01:30:988] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 132. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:01:30:998] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 133. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:01:31:008] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 134. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:01:31:018] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 135. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:01:31:783] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.245 seconds (JVM running for 1320.937)
+[16:02:51:087] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4120 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:02:51:092] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:02:53:892] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 1. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:02:53:914] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 2. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:02:53:927] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 3. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:02:53:939] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 4. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:02:53:950] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 5. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:02:55:190] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 4.741 seconds (JVM running for 6.535)
+[16:05:45:244] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4120 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:05:45:244] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:05:46:222] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 6. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:05:46:234] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 7. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:05:46:245] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 8. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:05:46:259] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 9. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:05:46:270] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 10. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:05:46:860] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.726 seconds (JVM running for 178.205)
+[16:06:06:010] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4120 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:06:06:011] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:06:07:131] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 11. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:06:07:145] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 12. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:06:07:158] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 13. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:06:07:169] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 14. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:06:07:180] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 15. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:06:07:759] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.82 seconds (JVM running for 199.103)
+[16:06:20:200] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4120 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:06:20:200] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:06:21:384] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 16. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:06:21:396] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 17. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:06:21:409] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 18. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:06:21:421] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 19. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:06:21:434] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 20. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:06:22:177] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.043 seconds (JVM running for 213.522)
+[16:07:08:904] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4120 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:07:08:905] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:07:09:775] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 21. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:07:09:786] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 22. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:07:09:798] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 23. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:07:09:811] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 24. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:07:09:824] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 25. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:07:10:554] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.735 seconds (JVM running for 261.898)
+[16:07:42:886] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4120 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:07:42:887] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:07:43:860] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 26. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:07:43:869] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 27. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:07:43:879] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 28. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:07:43:888] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 29. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:07:43:899] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 30. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:07:44:590] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.786 seconds (JVM running for 295.935)
+[16:14:23:225] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4120 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:14:23:225] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:14:24:089] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 31. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:14:24:099] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 32. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:14:24:111] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 33. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:14:24:121] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 34. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:14:24:130] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 35. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:14:24:779] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.602 seconds (JVM running for 696.124)
+[16:15:04:435] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4120 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:15:04:435] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:15:05:569] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 36. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:15:05:580] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 37. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:15:05:591] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 38. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:15:05:600] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 39. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:15:05:609] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 40. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:15:06:349] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.959 seconds (JVM running for 737.693)
+[16:15:41:981] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4120 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:15:41:981] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:15:42:961] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 41. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:15:42:968] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 42. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:15:42:977] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 43. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:15:42:985] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 44. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:15:42:993] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 45. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:15:43:510] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.674 seconds (JVM running for 774.855)
+[16:17:23:209] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4120 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:17:23:210] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:17:24:372] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 46. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:17:24:381] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 47. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:17:24:389] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 48. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:17:24:398] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 49. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:17:24:406] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 50. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:17:24:985] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.896 seconds (JVM running for 876.33)
+[16:17:29:792] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4120 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:17:29:792] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:17:30:906] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 51. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:17:30:920] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 52. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:17:30:931] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 53. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:17:30:940] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 54. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:17:30:961] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 55. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:17:31:947] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.209 seconds (JVM running for 883.292)
+[16:25:30:550] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4120 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:25:30:551] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:25:31:788] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 56. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:25:31:795] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 57. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:25:31:802] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 58. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:25:31:811] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 59. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:25:31:820] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 60. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:25:32:290] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.808 seconds (JVM running for 1363.635)
+[16:25:36:303] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4120 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:25:36:303] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:25:37:300] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 61. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:25:37:308] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 62. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:25:37:317] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 63. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:25:37:325] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 64. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:25:37:333] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 65. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:25:37:874] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.621 seconds (JVM running for 1369.218)
+[16:28:51:718] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4120 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:28:51:719] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:28:52:948] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 66. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:28:52:959] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 67. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:28:52:970] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 68. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:28:52:982] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 69. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:28:52:994] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 70. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:28:53:691] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.076 seconds (JVM running for 1565.035)
+[16:30:17:002] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4120 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:30:17:003] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:30:17:959] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 71. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:30:17:968] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 72. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:30:17:976] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 73. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:30:17:983] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 74. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:30:17:991] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 75. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:30:18:505] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.564 seconds (JVM running for 1649.849)
+[16:35:48:784] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4120 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:35:48:784] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:35:49:959] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 76. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:35:49:967] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 77. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:35:49:977] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 78. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:35:49:990] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 79. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:35:49:999] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 80. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:35:51:116] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.392 seconds (JVM running for 1982.461)
+[16:35:54:557] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4120 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:35:54:557] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:35:55:517] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 81. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:35:55:527] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 82. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:35:55:538] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 83. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:35:55:548] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 84. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:35:55:557] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 85. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:35:56:645] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.141 seconds (JVM running for 1987.99)
+[16:35:58:774] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4120 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:35:58:774] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:36:00:064] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 86. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:36:00:074] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 87. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:36:00:081] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 88. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:36:00:090] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 89. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:36:00:098] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 90. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:36:00:725] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.048 seconds (JVM running for 1992.069)
+[16:36:44:388] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4120 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:36:44:388] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:36:45:180] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 91. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:36:45:189] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 92. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:36:45:197] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 93. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:36:45:206] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 94. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:36:45:217] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 95. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:36:45:891] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.558 seconds (JVM running for 2037.235)
+[16:39:45:832] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:39:45:837] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:39:49:885] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 1. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:39:49:906] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 2. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:39:49:920] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 3. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:39:49:931] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 4. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:39:49:941] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 5. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:39:51:292] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 6.085 seconds (JVM running for 7.741)
+[16:39:59:531] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:39:59:531] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:40:00:472] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 6. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:40:00:488] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 7. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:40:00:502] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 8. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:40:00:518] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 9. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:40:00:531] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 10. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:40:01:375] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.938 seconds (JVM running for 17.823)
+[16:40:07:316] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:40:07:317] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:40:08:270] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 11. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:40:08:281] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 12. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:40:08:291] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 13. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:40:08:305] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 14. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:40:08:317] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 15. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:40:08:876] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.675 seconds (JVM running for 25.325)
+[16:42:18:268] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:42:18:269] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:42:19:338] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 16. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:42:19:348] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 17. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:42:19:358] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 18. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:42:19:367] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 19. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:42:19:377] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 20. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:42:20:188] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.989 seconds (JVM running for 156.637)
+[16:42:51:622] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:42:51:622] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:42:52:860] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 21. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:42:52:867] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 22. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:42:52:875] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 23. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:42:52:883] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 24. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:42:52:891] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 25. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:42:53:284] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.72 seconds (JVM running for 189.732)
+[16:54:58:449] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:54:58:449] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:54:59:496] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 26. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:54:59:505] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 27. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:54:59:515] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 28. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:54:59:526] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 29. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:54:59:539] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 30. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:55:00:356] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.986 seconds (JVM running for 916.805)
+[16:55:14:819] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:55:14:820] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:55:16:508] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 31. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:16:520] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 32. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:55:16:537] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 33. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:16:547] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 34. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:16:558] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 35. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:18:485] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 3.719 seconds (JVM running for 934.934)
+[16:55:20:573] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:55:20:573] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:55:22:242] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 36. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:22:252] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 37. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:22:264] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 38. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:22:274] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 39. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:22:283] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 40. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:23:063] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.598 seconds (JVM running for 939.512)
+[16:55:27:502] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:55:27:502] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:55:28:536] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 41. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:28:546] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 42. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:28:555] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 43. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:28:564] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 44. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:28:574] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 45. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:55:29:109] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.655 seconds (JVM running for 945.558)
+[16:55:37:157] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:55:37:157] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:55:38:799] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 46. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:55:38:813] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 47. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:38:825] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 48. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:55:38:835] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 49. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:38:845] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 50. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:40:343] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 3.24 seconds (JVM running for 956.792)
+[16:55:42:483] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:55:42:483] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:55:43:385] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 51. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:43:396] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 52. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:43:406] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 53. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:55:43:417] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 54. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:55:43:430] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 55. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:44:439] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.004 seconds (JVM running for 960.889)
+[16:55:49:319] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:55:49:320] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:55:50:801] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 56. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:50:814] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 57. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:50:826] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 58. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:50:839] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 59. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:50:854] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 60. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:55:52:200] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.98 seconds (JVM running for 968.649)
+[16:56:02:411] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:56:02:411] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:56:04:060] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 61. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:56:04:066] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 62. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:56:04:075] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 63. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:56:04:082] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 64. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:56:04:089] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 65. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:56:04:674] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.32 seconds (JVM running for 981.123)
+[16:56:09:693] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:56:09:693] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:56:10:785] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 66. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:56:10:801] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 67. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:56:10:812] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 68. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:56:10:822] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 69. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:56:10:833] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 70. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:56:11:566] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.921 seconds (JVM running for 988.015)
+[16:56:24:206] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:56:24:206] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:56:25:657] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 71. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:56:25:664] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 72. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:56:25:671] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 73. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:56:25:677] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 74. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:56:25:683] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 75. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:56:26:326] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.184 seconds (JVM running for 1002.775)
+[16:56:37:117] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:56:37:117] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:56:38:141] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 76. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:56:38:147] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 77. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:56:38:155] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 78. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:56:38:161] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 79. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:56:38:168] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 80. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:56:38:885] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.944 seconds (JVM running for 1015.334)
+[16:57:05:838] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:57:05:838] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:57:07:240] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 81. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:07:248] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 82. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:07:255] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 83. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:07:262] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 84. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:07:270] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 85. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:57:08:146] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.381 seconds (JVM running for 1044.596)
+[16:57:11:313] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:57:11:313] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:57:12:301] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 86. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:12:311] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 87. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:12:319] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 88. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:12:329] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 89. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:12:338] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 90. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:13:302] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.049 seconds (JVM running for 1049.751)
+[16:57:18:021] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:57:18:021] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:57:19:144] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 91. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:19:159] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 92. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:57:19:170] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 93. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:19:180] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 94. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:19:189] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 95. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:19:814] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.835 seconds (JVM running for 1056.263)
+[16:57:24:321] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:57:24:322] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:57:25:353] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 96. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:25:365] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 97. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:57:25:373] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 98. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:25:381] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 99. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:25:389] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 100. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:26:395] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.133 seconds (JVM running for 1062.844)
+[16:57:29:575] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:57:29:576] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:57:30:422] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 101. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:30:431] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 102. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:30:442] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 103. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:30:451] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 104. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:30:459] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 105. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:31:370] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.887 seconds (JVM running for 1067.82)
+[16:57:35:601] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:57:35:602] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:57:36:602] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 106. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:36:612] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 107. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:36:623] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 108. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:36:632] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 109. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:36:641] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 110. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:57:37:677] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.117 seconds (JVM running for 1074.127)
+[16:58:27:657] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:58:27:658] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:58:28:846] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 111. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:58:28:854] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 112. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:58:28:866] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 113. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:58:28:873] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 114. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:58:28:881] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 115. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:58:29:891] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.292 seconds (JVM running for 1126.34)
+[16:58:33:940] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[16:58:33:941] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[16:58:35:559] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 116. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:58:35:568] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 117. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:58:35:575] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 118. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:58:35:582] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 119. SELECT 1 FROM DUAL  {executed in 1 ms}
+[16:58:35:590] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 120. SELECT 1 FROM DUAL  {executed in 0 ms}
+[16:58:36:326] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.481 seconds (JVM running for 1132.775)
+[17:01:38:460] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 4828 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[17:01:38:460] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[17:01:39:220] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 121. SELECT 1 FROM DUAL  {executed in 0 ms}
+[17:01:39:229] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 122. SELECT 1 FROM DUAL  {executed in 0 ms}
+[17:01:39:238] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 123. SELECT 1 FROM DUAL  {executed in 1 ms}
+[17:01:39:245] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 124. SELECT 1 FROM DUAL  {executed in 0 ms}
+[17:01:39:254] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 125. SELECT 1 FROM DUAL  {executed in 1 ms}
+[17:01:40:122] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 1.707 seconds (JVM running for 1316.572)

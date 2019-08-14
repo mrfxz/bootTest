@@ -1,0 +1,208 @@
+[08-17 12:00:08.072 INFO com.boot.test.Application]             restartedMain: Starting Application on DESKTOP-VQGHUL9 with PID 8984 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[08-17 12:00:08.119 INFO com.boot.test.Application]             restartedMain: The following profiles are active: dev
+[08-17 12:00:08.195 INFO bServerApplicationContext]             restartedMain: Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4fd01339: startup date [Fri Aug 17 12:00:08 CST 2018]; root of context hierarchy
+[08-17 12:00:10.506 INFO ed.tomcat.TomcatWebServer]             restartedMain: Tomcat initialized with port(s): 8080 (http)
+[08-17 12:00:10.628 INFO web.context.ContextLoader]     localhost-startStop-1: Root WebApplicationContext: initialization completed in 2439 ms
+[08-17 12:00:10.800 INFO t.ServletRegistrationBean]     localhost-startStop-1: Servlet dispatcherServlet mapped to [/]
+[08-17 12:00:10.800 INFO t.ServletRegistrationBean]     localhost-startStop-1: Servlet statViewServlet mapped to [/druid/*]
+[08-17 12:00:10.800 INFO et.FilterRegistrationBean]     localhost-startStop-1: Mapping filter: 'characterEncodingFilter' to: [/*]
+[08-17 12:00:10.800 INFO et.FilterRegistrationBean]     localhost-startStop-1: Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[08-17 12:00:10.800 INFO et.FilterRegistrationBean]     localhost-startStop-1: Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[08-17 12:00:10.800 INFO et.FilterRegistrationBean]     localhost-startStop-1: Mapping filter: 'requestContextFilter' to: [/*]
+[08-17 12:00:10.800 INFO et.FilterRegistrationBean]     localhost-startStop-1: Mapping filter: 'webStatFilter' to urls: [/*]
+[08-17 12:00:10.892 INFO idDataSourceAutoConfigure]             restartedMain: Init DruidDataSource
+[08-17 12:00:11.288 INFO ruid.pool.DruidDataSource]             restartedMain: {dataSource-1} inited
+[08-17 12:00:11.664 INFO r.SimpleUrlHandlerMapping]             restartedMain: Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[08-17 12:00:11.888 INFO uestMappingHandlerAdapter]             restartedMain: Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4fd01339: startup date [Fri Aug 17 12:00:08 CST 2018]; root of context hierarchy
+[08-17 12:00:11.944 INFO uestMappingHandlerMapping]             restartedMain: Mapped "{[/eventinfo/get]}" onto public java.util.List<com.boot.test.event.pojo.EventinfoPojo> com.boot.test.event.controller.EventinfoController.get(com.boot.test.event.pojo.EventinfoPojo,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[08-17 12:00:11.945 INFO uestMappingHandlerMapping]             restartedMain: Mapped "{[/eventinfo/update]}" onto public void com.boot.test.event.controller.EventinfoController.update(com.boot.test.event.pojo.EventinfoPojo,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[08-17 12:00:11.947 INFO uestMappingHandlerMapping]             restartedMain: Mapped "{[/hello/importExcel]}" onto public void com.boot.test.poi.controller.UserController.importExcel(org.springframework.web.multipart.MultipartFile)
+[08-17 12:00:11.947 INFO uestMappingHandlerMapping]             restartedMain: Mapped "{[/hello/hi]}" onto public java.util.List<com.boot.test.poi.pojo.UserPojo> com.boot.test.poi.controller.UserController.hello(com.boot.test.poi.pojo.UserPojo)
+[08-17 12:00:11.948 INFO uestMappingHandlerMapping]             restartedMain: Mapped "{[/hello/exportFile]}" onto public void com.boot.test.poi.controller.UserController.exportExcel(javax.servlet.http.HttpServletResponse)
+[08-17 12:00:11.951 INFO uestMappingHandlerMapping]             restartedMain: Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[08-17 12:00:11.952 INFO uestMappingHandlerMapping]             restartedMain: Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[08-17 12:00:11.987 INFO r.SimpleUrlHandlerMapping]             restartedMain: Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[08-17 12:00:11.989 INFO r.SimpleUrlHandlerMapping]             restartedMain: Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[08-17 12:00:12.217 INFO rker.SpringTemplateLoader]             restartedMain: SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4fd01339: startup date [Fri Aug 17 12:00:08 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+[08-17 12:00:12.217 INFO rker.FreeMarkerConfigurer]             restartedMain: ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[08-17 12:00:12.243 WARN eeMarkerAutoConfiguration]             restartedMain: Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+[08-17 12:00:12.436 INFO .OptionalLiveReloadServer]             restartedMain: LiveReload server is running on port 35729
+[08-17 12:00:12.467 INFO n.AnnotationMBeanExporter]             restartedMain: Registering beans for JMX exposure on startup
+[08-17 12:00:12.467 INFO n.AnnotationMBeanExporter]             restartedMain: Bean with name 'statFilter' has been autodetected for JMX exposure
+[08-17 12:00:12.467 INFO n.AnnotationMBeanExporter]             restartedMain: Bean with name 'dataSource' has been autodetected for JMX exposure
+[08-17 12:00:12.476 INFO n.AnnotationMBeanExporter]             restartedMain: Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+[08-17 12:00:12.476 INFO n.AnnotationMBeanExporter]             restartedMain: Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+[08-17 12:00:12.507 INFO ed.tomcat.TomcatWebServer]             restartedMain: Tomcat started on port(s): 8080 (http) with context path ''
+[08-17 12:00:12.507 INFO com.boot.test.Application]             restartedMain: Started Application in 4.988 seconds (JVM running for 6.605)
+[08-17 12:00:56.889 INFO bServerApplicationContext]                 Thread-17: Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4fd01339: startup date [Fri Aug 17 12:00:08 CST 2018]; root of context hierarchy
+[08-17 12:00:56.895 INFO n.AnnotationMBeanExporter]                 Thread-17: Unregistering JMX-exposed beans on shutdown
+[08-17 12:00:56.895 INFO n.AnnotationMBeanExporter]                 Thread-17: Unregistering JMX-exposed beans
+[08-17 12:00:56.910 INFO ruid.pool.DruidDataSource]                 Thread-17: {dataSource-1} closed
+[08-17 12:00:58.070 INFO com.boot.test.Application]             restartedMain: Starting Application on DESKTOP-VQGHUL9 with PID 8984 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[08-17 12:00:58.084 INFO com.boot.test.Application]             restartedMain: The following profiles are active: dev
+[08-17 12:00:58.092 INFO bServerApplicationContext]             restartedMain: Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f7a568f: startup date [Fri Aug 17 12:00:58 CST 2018]; root of context hierarchy
+[08-17 12:00:58.897 WARN er.ClassPathMapperScanner]             restartedMain: No MyBatis mapper was found in '[com.boot.test]' package. Please check your configuration.
+[08-17 12:00:59.136 INFO ed.tomcat.TomcatWebServer]             restartedMain: Tomcat initialized with port(s): 8080 (http)
+[08-17 12:00:59.167 INFO web.context.ContextLoader]     localhost-startStop-1: Root WebApplicationContext: initialization completed in 1075 ms
+[08-17 12:00:59.207 INFO t.ServletRegistrationBean]     localhost-startStop-1: Servlet dispatcherServlet mapped to [/]
+[08-17 12:00:59.207 INFO t.ServletRegistrationBean]     localhost-startStop-1: Servlet statViewServlet mapped to [/druid/*]
+[08-17 12:00:59.207 INFO et.FilterRegistrationBean]     localhost-startStop-1: Mapping filter: 'characterEncodingFilter' to: [/*]
+[08-17 12:00:59.207 INFO et.FilterRegistrationBean]     localhost-startStop-1: Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[08-17 12:00:59.207 INFO et.FilterRegistrationBean]     localhost-startStop-1: Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[08-17 12:00:59.207 INFO et.FilterRegistrationBean]     localhost-startStop-1: Mapping filter: 'requestContextFilter' to: [/*]
+[08-17 12:00:59.207 INFO et.FilterRegistrationBean]     localhost-startStop-1: Mapping filter: 'webStatFilter' to urls: [/*]
+[08-17 12:00:59.238 INFO r.SimpleUrlHandlerMapping]             restartedMain: Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[08-17 12:00:59.299 INFO uestMappingHandlerAdapter]             restartedMain: Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f7a568f: startup date [Fri Aug 17 12:00:58 CST 2018]; root of context hierarchy
+[08-17 12:00:59.313 INFO uestMappingHandlerMapping]             restartedMain: Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[08-17 12:00:59.313 INFO uestMappingHandlerMapping]             restartedMain: Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[08-17 12:00:59.324 INFO r.SimpleUrlHandlerMapping]             restartedMain: Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[08-17 12:00:59.324 INFO r.SimpleUrlHandlerMapping]             restartedMain: Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[08-17 12:00:59.354 INFO idDataSourceAutoConfigure]             restartedMain: Init DruidDataSource
+[08-17 12:00:59.427 INFO ruid.pool.DruidDataSource]             restartedMain: {dataSource-2} inited
+[08-17 12:00:59.461 WARN bServerApplicationContext]             restartedMain: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\bootProduct\best-pay-sdk-develop\poi2\target\classes\com\boot\test\codemaker\sqlmap\CodeMakerMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.boot.test.codemaker.po.ColumnInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.boot.test.codemaker.po.ColumnInfo
+[08-17 12:00:59.461 INFO ruid.pool.DruidDataSource]             restartedMain: {dataSource-2} closed
+[08-17 12:00:59.472 INFO tionReportLoggingListener]             restartedMain: 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[08-17 12:00:59.531 ERROR rk.boot.SpringApplication]             restartedMain: Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\bootProduct\best-pay-sdk-develop\poi2\target\classes\com\boot\test\codemaker\sqlmap\CodeMakerMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.boot.test.codemaker.po.ColumnInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.boot.test.codemaker.po.ColumnInfo
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:590) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1256) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1105) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) [spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395) [spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) [spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255) [spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243) [spring-boot-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+	at com.boot.test.Application.main(Application.java:12) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_172]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.0.3.RELEASE.jar:2.0.3.RELEASE]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\bootProduct\best-pay-sdk-develop\poi2\target\classes\com\boot\test\codemaker\sqlmap\CodeMakerMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.boot.test.codemaker.po.ColumnInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.boot.test.codemaker.po.ColumnInfo
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	... 23 more
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\bootProduct\best-pay-sdk-develop\poi2\target\classes\com\boot\test\codemaker\sqlmap\CodeMakerMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.boot.test.codemaker.po.ColumnInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.boot.test.codemaker.po.ColumnInfo
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:139) ~[mybatis-spring-boot-autoconfigure-1.2.0.jar:1.2.0]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$cfb2f9a2.CGLIB$sqlSessionFactory$0(<generated>) ~[mybatis-spring-boot-autoconfigure-1.2.0.jar:1.2.0]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$cfb2f9a2$$FastClassBySpringCGLIB$$b8e5f025.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-1.2.0.jar:1.2.0]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$cfb2f9a2.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-1.2.0.jar:1.2.0]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_172]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	... 23 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.boot.test.codemaker.po.ColumnInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.boot.test.codemaker.po.ColumnInfo
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:139) ~[mybatis-spring-boot-autoconfigure-1.2.0.jar:1.2.0]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$cfb2f9a2.CGLIB$sqlSessionFactory$0(<generated>) ~[mybatis-spring-boot-autoconfigure-1.2.0.jar:1.2.0]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$cfb2f9a2$$FastClassBySpringCGLIB$$b8e5f025.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-1.2.0.jar:1.2.0]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$cfb2f9a2.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-1.2.0.jar:1.2.0]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_172]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	... 23 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.boot.test.codemaker.po.ColumnInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.boot.test.codemaker.po.ColumnInfo
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:68) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:135) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:128) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:139) ~[mybatis-spring-boot-autoconfigure-1.2.0.jar:1.2.0]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$cfb2f9a2.CGLIB$sqlSessionFactory$0(<generated>) ~[mybatis-spring-boot-autoconfigure-1.2.0.jar:1.2.0]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$cfb2f9a2$$FastClassBySpringCGLIB$$b8e5f025.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-1.2.0.jar:1.2.0]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$cfb2f9a2.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-1.2.0.jar:1.2.0]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_172]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	... 23 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.boot.test.codemaker.po.ColumnInfo'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.boot.test.codemaker.po.ColumnInfo
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:68) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:135) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:128) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:139) ~[mybatis-spring-boot-autoconfigure-1.2.0.jar:1.2.0]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$cfb2f9a2.CGLIB$sqlSessionFactory$0(<generated>) ~[mybatis-spring-boot-autoconfigure-1.2.0.jar:1.2.0]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$cfb2f9a2$$FastClassBySpringCGLIB$$b8e5f025.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-1.2.0.jar:1.2.0]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$cfb2f9a2.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-1.2.0.jar:1.2.0]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_172]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	... 23 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.boot.test.codemaker.po.ColumnInfo
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:68) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:135) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:128) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92) ~[mybatis-3.4.2.jar:3.4.2]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:547) ~[mybatis-spring-1.3.1.jar:1.3.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:139) ~[mybatis-spring-boot-autoconfigure-1.2.0.jar:1.2.0]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$cfb2f9a2.CGLIB$sqlSessionFactory$0(<generated>) ~[mybatis-spring-boot-autoconfigure-1.2.0.jar:1.2.0]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$cfb2f9a2$$FastClassBySpringCGLIB$$b8e5f025.invoke(<generated>) ~[mybatis-spring-boot-autoconfigure-1.2.0.jar:1.2.0]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) ~[spring-core-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$cfb2f9a2.sqlSessionFactory(<generated>) ~[mybatis-spring-boot-autoconfigure-1.2.0.jar:1.2.0]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_172]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	... 23 more

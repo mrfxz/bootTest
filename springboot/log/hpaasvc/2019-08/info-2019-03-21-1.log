@@ -1,0 +1,111 @@
+[14:10:07:210] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting JobTest on DESKTOP-VQGHUL9 with PID 13728 (started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[14:10:07:272] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[14:10:13:936] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 1. SELECT 1 FROM DUAL  {executed in 1 ms}
+[14:10:13:974] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 2. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:10:13:992] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 3. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:10:14:013] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 4. SELECT 1 FROM DUAL  {executed in 1 ms}
+[14:10:14:032] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 5. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:10:18:849] [INFO] - com.boot.test.common.scheduler.SchedulerManager.startAll(SchedulerManager.java:43) - =================开始配置定时任务==================
+[14:10:18:860] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started JobTest in 13.92 seconds (JVM running for 19.109)
+[14:12:23:518] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting JobTest on DESKTOP-VQGHUL9 with PID 12748 (started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[14:12:23:594] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[14:12:28:899] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 1. SELECT 1 FROM DUAL  {executed in 1 ms}
+[14:12:28:964] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 2. SELECT 1 FROM DUAL  {executed in 1 ms}
+[14:12:29:000] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 3. SELECT 1 FROM DUAL  {executed in 1 ms}
+[14:12:29:034] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 4. SELECT 1 FROM DUAL  {executed in 1 ms}
+[14:12:29:053] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 5. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:12:35:957] [INFO] - com.boot.test.common.scheduler.SchedulerManager.startAll(SchedulerManager.java:43) - =================开始配置定时任务==================
+[14:12:35:965] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started JobTest in 14.098 seconds (JVM running for 18.801)
+[14:13:10:100] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting JobTest on DESKTOP-VQGHUL9 with PID 3696 (started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[14:13:10:114] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[14:13:15:193] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 1. SELECT 1 FROM DUAL  {executed in 1 ms}
+[14:13:15:241] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 2. SELECT 1 FROM DUAL  {executed in 2 ms}
+[14:13:15:267] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 3. SELECT 1 FROM DUAL  {executed in 1 ms}
+[14:13:15:303] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 4. SELECT 1 FROM DUAL  {executed in 1 ms}
+[14:13:15:325] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 5. SELECT 1 FROM DUAL  {executed in 1 ms}
+[14:13:19:713] [INFO] - com.boot.test.common.scheduler.SchedulerManager.startAll(SchedulerManager.java:43) - =================开始配置定时任务==================
+[14:13:19:726] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started JobTest in 10.802 seconds (JVM running for 15.939)
+[14:17:46:180] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting JobTest on DESKTOP-VQGHUL9 with PID 8364 (started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[14:17:46:190] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[14:17:51:080] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 1. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:17:51:128] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 2. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:17:51:151] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 3. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:17:51:178] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 4. SELECT 1 FROM DUAL  {executed in 1 ms}
+[14:17:51:192] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 5. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:17:55:621] [INFO] - com.boot.test.common.scheduler.SchedulerManager.startAll(SchedulerManager.java:42) - =================开始配置定时任务==================
+[14:17:55:631] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started JobTest in 11.266 seconds (JVM running for 15.784)
+[14:18:07:482] [INFO] - com.boot.test.common.scheduler.SchedulerManager.startJob(SchedulerManager.java:170) - 定时任务========job1启动成功
+[14:19:50:005] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 7660 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[14:19:50:012] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[14:19:53:869] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 1. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:19:53:892] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 2. SELECT 1 FROM DUAL  {executed in 1 ms}
+[14:19:53:905] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 3. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:19:53:917] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 4. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:19:53:928] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 5. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:19:55:611] [INFO] - com.boot.test.common.scheduler.SchedulerManager.startAll(SchedulerManager.java:42) - =================开始配置定时任务==================
+[14:19:55:620] [INFO] - com.boot.test.common.scheduler.SchedulerManager.startJob(SchedulerManager.java:170) - 定时任务========job1启动成功
+[14:19:55:682] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 6.322 seconds (JVM running for 9.557)
+[14:20:00:031] [INFO] - com.boot.test.common.scheduler.tool.SchedulerTool.begin(SchedulerTool.java:22) - 【定时任务：审核推荐人归档】：在 2019-03-21 14:20:00.03 开始... 
+[14:20:00:032] [INFO] - com.boot.test.common.scheduler.tool.SchedulerTool.end(SchedulerTool.java:28) - 【定时任务：审核推荐人归档】：在 2019-03-21 14:20:00.03 完成，共处理1条数据,花费时间：0s
+[14:20:50:104] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 7660 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[14:20:50:105] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[14:20:52:012] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 6. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:20:52:029] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 7. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:20:52:045] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 8. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:20:52:071] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 9. SELECT 1 FROM DUAL  {executed in 1 ms}
+[14:20:52:087] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 10. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:20:53:905] [INFO] - com.boot.test.common.scheduler.SchedulerManager.startAll(SchedulerManager.java:42) - =================开始配置定时任务==================
+[14:20:53:909] [INFO] - com.boot.test.common.scheduler.SchedulerManager.startJob(SchedulerManager.java:170) - 定时任务========job1启动成功
+[14:20:53:926] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 3.98 seconds (JVM running for 67.802)
+[14:20:56:760] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 7660 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[14:20:56:760] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[14:20:58:312] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 11. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:20:58:327] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 12. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:20:58:343] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 13. SELECT 1 FROM DUAL  {executed in 1 ms}
+[14:20:58:356] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 14. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:20:58:371] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 15. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:20:59:466] [INFO] - com.boot.test.common.scheduler.SchedulerManager.startAll(SchedulerManager.java:42) - =================开始配置定时任务==================
+[14:20:59:468] [INFO] - com.boot.test.common.scheduler.SchedulerManager.startJob(SchedulerManager.java:170) - 定时任务========job1启动成功
+[14:20:59:476] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.953 seconds (JVM running for 73.352)
+[14:21:00:006] [INFO] - com.boot.test.common.scheduler.tool.SchedulerTool.begin(SchedulerTool.java:22) - 【定时任务：测试任务开始】：在 2019-03-21 14:21:00.006 开始... 
+[14:21:00:007] [INFO] - com.boot.test.common.scheduler.tool.SchedulerTool.end(SchedulerTool.java:28) - 【定时任务：审核推荐人归档】：在 2019-03-21 14:21:00.006 完成，共处理1条数据,花费时间：0s
+[14:21:02:463] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 7660 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[14:21:02:464] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[14:21:03:973] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 16. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:21:03:988] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 17. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:21:04:002] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 18. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:21:04:017] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 19. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:21:04:031] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 20. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:21:05:228] [INFO] - com.boot.test.common.scheduler.SchedulerManager.startAll(SchedulerManager.java:42) - =================开始配置定时任务==================
+[14:21:05:229] [INFO] - com.boot.test.common.scheduler.SchedulerManager.startJob(SchedulerManager.java:170) - 定时任务========job1启动成功
+[14:21:05:238] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.841 seconds (JVM running for 79.114)
+[14:22:00:013] [INFO] - com.boot.test.common.scheduler.tool.SchedulerTool.begin(SchedulerTool.java:22) - 【定时任务：测试任务开始】：在 2019-03-21 14:22:00.012 开始... 
+[14:22:00:014] [INFO] - com.boot.test.common.scheduler.tool.SchedulerTool.end(SchedulerTool.java:28) - 【定时任务：测试任务结束】：在 2019-03-21 14:22:00.012 完成，共处理1条数据,花费时间：0s
+[14:22:12:439] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 3300 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[14:22:12:445] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[14:22:15:594] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 1. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:22:15:618] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 2. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:22:15:632] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 3. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:22:15:645] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 4. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:22:15:657] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 5. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:22:17:272] [INFO] - com.boot.test.common.scheduler.SchedulerManager.startAll(SchedulerManager.java:42) - =================开始配置定时任务==================
+[14:22:17:280] [INFO] - com.boot.test.common.scheduler.SchedulerManager.startJob(SchedulerManager.java:170) - 定时任务========job1启动成功
+[14:22:17:317] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 5.687 seconds (JVM running for 7.582)
+[14:22:32:369] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:50) - Starting Application on DESKTOP-VQGHUL9 with PID 3300 (D:\bootProduct\best-pay-sdk-develop\poi2\target\classes started by zhu in D:\bootProduct\best-pay-sdk-develop\poi2)
+[14:22:32:369] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:663) - The following profiles are active: dev
+[14:22:33:651] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 6. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:22:33:664] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 7. SELECT 1 FROM DUAL  {executed in 1 ms}
+[14:22:33:675] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 8. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:22:33:692] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 9. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:22:33:703] [INFO] - net.sf.log4jdbc.log.log4j2.Log4j2SpyLogDelegator.sqlTimingOccurred(Log4j2SpyLogDelegator.java:243) - 10. SELECT 1 FROM DUAL  {executed in 0 ms}
+[14:22:34:735] [INFO] - com.boot.test.common.scheduler.SchedulerManager.startAll(SchedulerManager.java:42) - =================开始配置定时任务==================
+[14:22:34:736] [INFO] - com.boot.test.common.scheduler.SchedulerManager.startJob(SchedulerManager.java:170) - 定时任务========job1启动成功
+[14:22:34:749] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:59) - Started Application in 2.473 seconds (JVM running for 25.015)
+[14:22:35:004] [INFO] - com.boot.test.common.scheduler.tool.SchedulerTool.begin(SchedulerTool.java:22) - 【定时任务：测试任务开始】：在 2019-03-21 14:22:35.004 开始... 
+[14:22:35:005] [INFO] - com.boot.test.common.scheduler.tool.SchedulerTool.end(SchedulerTool.java:28) - 【定时任务：测试任务结束】：在 2019-03-21 14:22:35.004 完成，共处理1条数据,花费时间：0s
+[14:22:40:002] [INFO] - com.boot.test.common.scheduler.tool.SchedulerTool.begin(SchedulerTool.java:22) - 【定时任务：测试任务开始】：在 2019-03-21 14:22:40.002 开始... 
+[14:22:40:003] [INFO] - com.boot.test.common.scheduler.tool.SchedulerTool.end(SchedulerTool.java:28) - 【定时任务：测试任务结束】：在 2019-03-21 14:22:40.002 完成，共处理1条数据,花费时间：0s
+[14:22:45:000] [INFO] - com.boot.test.common.scheduler.tool.SchedulerTool.begin(SchedulerTool.java:22) - 【定时任务：测试任务开始】：在 2019-03-21 14:22:45.0 开始... 
+[14:22:45:001] [INFO] - com.boot.test.common.scheduler.tool.SchedulerTool.end(SchedulerTool.java:28) - 【定时任务：测试任务结束】：在 2019-03-21 14:22:45.0 完成，共处理1条数据,花费时间：0s
+[14:22:50:001] [INFO] - com.boot.test.common.scheduler.tool.SchedulerTool.begin(SchedulerTool.java:22) - 【定时任务：测试任务开始】：在 2019-03-21 14:22:50.001 开始... 
+[14:22:50:002] [INFO] - com.boot.test.common.scheduler.tool.SchedulerTool.end(SchedulerTool.java:28) - 【定时任务：测试任务结束】：在 2019-03-21 14:22:50.001 完成，共处理1条数据,花费时间：0s
