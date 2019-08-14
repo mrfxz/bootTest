@@ -1,0 +1,40 @@
+#log4j2配置文件path
+logging:
+  config: classpath:log4j2_dev.xml
+
+#mysql配置
+mysql:
+  host: 127.0.0.1:3306
+  username: root
+  password: root
+
+# rabbitMQ配置
+spring:
+  application:
+    name: spring-boot-rabbitmq
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: superZhu
+    password: a123456
+
+# redis配置
+redis:
+  host: 127.0.0.1
+
+# eureka 注册
+eureka:
+  client:
+    healthcheck:
+      enabled: true #开启健康检查（依赖spring-boot-starter-actuator）
+    service-url:
+      defaultZone: http://127.0.0.1:8888/eureka/
+  instance:
+    lease-renewal-interval-in-seconds: 5 #心跳时间，即服务续约间隔时间（缺省为30s）
+    lease-expiration-duration-in-seconds: 15 #发呆时间，即服务续约到期时间（缺省为90s）
+
+
+
+
+
+

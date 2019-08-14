@@ -1,0 +1,71 @@
+# tomcat服务器设置
+server:
+       port: 8080
+
+spring:
+      #多环境配置
+      profiles:
+        active: dev
+       # profiles:active: dev 指定运行环境,一般用于开发,测试,线上环境配置文件的切换
+      datasource:
+                #基本属性
+                driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+                url: jdbc:log4jdbc:mysql://${mysql.host}/boot?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+                username: ${mysql.username}
+                password: ${mysql.password}
+
+                ###################以下为druid增加的配置###########################
+                druid:
+                # 下面为连接池的补充设置，应用到上面所有数据源中
+                # 初始化大小，最小，最大
+                   initialSize: 5
+                   minIdle: 5
+                   maxActive: 20
+                # 配置获取连接等待超时的时间
+                   max-wait: 60000
+                # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+                   timeBetweenEvictionRunsMillis: 60000
+                # 配置一个连接在池中最小生存的时间，单位是毫秒
+                   minEvictableIdleTimeMillis: 300000
+                   validationQuery: SELECT 1 FROM DUAL
+                   testWhileIdle: true
+                   testOnBorrow: false
+                   testOnReturn: false
+                # 打开PSCache，并且指定每个连接上PSCache的大小
+                   poolPreparedStatements: true
+                   maxPoolPreparedStatementPerConnectionSize: 20
+                # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+                   filters: stat
+                # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+                   connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+                # 合并多个DruidDataSource的监控数据
+                   useGlobalDataSourceStat: true
+                ###############以上为配置druid添加的配置########################################
+
+
+       # 修改默认的静态资源存放目录
+     # resources:
+       # static-locations: classpath:/
+
+#redis配置
+redis-cfg:
+   redisPoolCfg:
+     minIdle: 1 #可以在池中保持空闲的最小连接数
+     maxIdle: 10 #可以在池中保持空闲的最大连接数
+     maxTotal: 50 #最大连接数
+     maxWaitMillis: 60000 # 如果没有可用连接,在抛出异常前等待的一个连接被归还的最大毫秒数，设置为-1， 设为-1无限制
+     testWhileIdle: false # 申请连接的时候检测
+     testOnCreate: false
+     testOnBorrow: false # 申请连接时执行validationQuery检测连接是否有效，配置为true会降低性能
+     testOnReturn: false # 归还连接时执行validationQuery检测连接是否有效，配置为true会降低性能
+   redisShardCfg:
+     connectionTimeout: 60000
+     soTimeout: 60000
+   hostsCfg:
+     - ${redis.host}
+
+
+#mybatis
+mybatis:
+   mapper-locations:  classpath*:com/boot/test/*/sqlmap/*.xml
+   type-aliases-package: com.boot.test
