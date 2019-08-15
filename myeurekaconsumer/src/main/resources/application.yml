@@ -15,3 +15,8 @@ eureka:
 spring:
   application:
     name: clent8001
+feign:
+  hystrix:
+    enabled: true
+
+
