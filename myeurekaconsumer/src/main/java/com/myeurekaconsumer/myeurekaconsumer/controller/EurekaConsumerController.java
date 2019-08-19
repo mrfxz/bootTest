@@ -14,4 +14,11 @@ public class EurekaConsumerController {
     public String hi(){
         return consumer.getTom();
     }
+
+    @RequestMapping(value = "/token")
+    public String getToken(){
+        String token = consumer.getToken(9527L);
+        System.setProperty("token",token);
+        return "token is " + token;
+    }
 }

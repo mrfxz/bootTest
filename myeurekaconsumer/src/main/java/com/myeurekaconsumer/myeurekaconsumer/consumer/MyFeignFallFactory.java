@@ -19,6 +19,11 @@ public class MyFeignFallFactory implements FallbackFactory<EurekaConsumer> {
                 //此时如果有请求数据的话，可以把请求数据记录下来，以便后期重新请求
                 return "服务调用出错";
             }
+
+            @Override
+            public String getToken(Long id) {
+                return "服务调用出错TOKEN";
+            }
         };
     }
 }
