@@ -10,7 +10,7 @@ public class EurekaConsumerController {
     @Autowired
     private EurekaConsumer consumer;
 
-    @RequestMapping(value = "hi")
+    @RequestMapping(value = "/hi")
     public String hi(){
         return consumer.getTom();
     }

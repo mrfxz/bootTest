@@ -5,6 +5,7 @@ server:
 # eureka 注册
 eureka:
   client:
+    register-with-eureka: false #是否向服务中心注册自己，默认true
     healthcheck:
       enabled: true #开启健康检查（依赖spring-boot-starter-actuator）
     service-url:
@@ -14,7 +15,7 @@ eureka:
     lease-expiration-duration-in-seconds: 15 #发呆时间，即服务续约到期时间（缺省为90s）
 spring:
   application:
-    name: clent8001
+    name: consu01
 feign:
   hystrix:
     enabled: true

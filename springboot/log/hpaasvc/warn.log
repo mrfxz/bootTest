@@ -1,0 +1,3 @@
+[14:09:38:841] [WARN] - com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) - No URLs will be polled as dynamic configuration sources.
+[14:09:48:896] [WARN] - com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) - No URLs will be polled as dynamic configuration sources.
+[14:10:02:305] [WARN] - com.netflix.discovery.InstanceInfoReplicator.onDemandUpdate(InstanceInfoReplicator.java:110) - Ignoring onDemand update due to rate limiter

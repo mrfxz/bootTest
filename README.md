@@ -5,15 +5,18 @@ springboot + mybatis 项目搭建
 
 2018-07-27之前有如下功能: 
 	1 excel简单的导入导出工具类 
-	2 freemarker + ftl 实现自动生成简单的CRUD
+	
+						 2 freemarker + ftl 实现自动生成简单的CRUD
 
-2018-08-17添加新的功能: 
-	3 spring aop切面 
-	4 log4j2 + log4jdbc
+2018-08-17添加新的功能: 3 spring aop切面 
+	
+	
+					   4 log4j2 + log4jdbc
 
 2019-03-21添加新的功能: 
 	5 quartz 定时任务，可由数据库配置cron,修改cron不用重启项目 
-	6 junit 单元测试
+	
+					   6 junit 单元测试
 
 2019-08-06添加新的功能：
 	7 整合rabbitmq,新增注解方式rabbitmq 5种队列demo
@@ -31,6 +34,8 @@ springboot + mybatis 项目搭建
 			2 其他服务提供者添加拦截器验证token，验证通过才能调用服务
 			3 消费者需要先获取token，然后再将token放入header中请求服务
 			PS：本项目token统一存在一个redis里面，所有服务提供者共用一个redis,方便验证token
+	
+						11 引入gateway模块，简单实现统一网关（PS：通过网关路由的服务必须先在eureka注册，仅实现统一网关访问，安全验证拦截器实现原理和feign间调用验证拦截器原理一致，略。）
 
 
 
