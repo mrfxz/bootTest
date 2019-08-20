@@ -27,13 +27,14 @@ public class ProductorController {
         return "i am tom!" + port;
     }
 
-    @RequestMapping(value = "/token/{id}",method = RequestMethod.GET)
+    @RequestMapping(value = "/pub/token/{id}",method = RequestMethod.GET)
     public String getToken(@PathVariable("id") Long id){
         String token = dao.get(id.toString(), String.class);
         if(token != null){
             return token;
         }
         token = UUID.randomUUID().toString();
+        dao.saveOrUpdate(id.toString(),token,60);
         dao.saveOrUpdate(token,token,60);
         return token;
     }

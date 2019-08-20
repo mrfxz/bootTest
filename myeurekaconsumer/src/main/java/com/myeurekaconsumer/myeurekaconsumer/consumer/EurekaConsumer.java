@@ -10,6 +10,6 @@ public interface EurekaConsumer {
     @RequestMapping(value = "/productor",method = RequestMethod.GET)
     public String getTom();
 
-    @RequestMapping(value = "/productor/token/{id}",method = RequestMethod.GET)
+    @RequestMapping(value = "/productor/pub/token/{id}",method = RequestMethod.GET)
     public String getToken(@PathVariable("id") Long id);
 }
