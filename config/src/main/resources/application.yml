@@ -1,0 +1,17 @@
+server:
+  port: 19999
+spring:
+  application:
+    name: springcloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/mrfxz/bootTest/
+          search-paths: allConfigTemp
+
+
+
+
+
+

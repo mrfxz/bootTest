@@ -1,48 +1,15 @@
-server:
-  port: 7999
-
-
-# eureka 注册
-eureka:
-  client:
-    healthcheck:
-      enabled: true #开启健康检查（依赖spring-boot-starter-actuator）
-    service-url:
-      defaultZone: http://root:root@127.0.0.1:8888/eureka/
-  instance:
-    lease-renewal-interval-in-seconds: 5 #心跳时间，即服务续约间隔时间（缺省为30s）
-    lease-expiration-duration-in-seconds: 15 #发呆时间，即服务续约到期时间（缺省为90s）
-
 spring:
   application:
     name: gateway7999
   cloud:
-    #设置路由规则
-    gateway:
-      routes:
-       - id: gateway01
-         uri: lb://SPRING-BOOT-RABBITMQ02        #代表从注册中心获取服务，且以lb(load-balance)负载均衡方式转发
-         predicates:                     #断言
-          - Path=/pro01/**        #表示将以/service01/**开头的请求转发到uri为lb://SPRING-BOOT-RABBITMQ02的地址上
-#       - After=2019-06-20T00:00:00.789-07:00[America/Denver] #表示在该时间点之后的时间，发出的请求会被路由到uri
-         filters:
-          - StripPrefix=1                #表示将Path的路径/pro01在转发前去掉，如果设置StripPrefix=2，表示将/service01/*去掉 以此类推... 同时将spring.cloud.gateway.discovery.locator.enabled改为false，如果不改的话，之前的localhost:8799/client01/test01这样的请求地址也能正常访问，因为这时为每个服务创建了2个router
-                                         #如果路由的url是/*格式，可以不配置本filters,如果是/*/*格式，就必须配置将pro01去掉，否则404
-       - id: gateway02
-         uri: lb://CONSU01        #代表从注册中心获取服务，且以lb(load-balance)负载均衡方式转发
-         predicates:                     #断言
-          - Path=/consu01/**            #表示将以/service01/**开头的请求转发到uri为lb://CONSU01的地址上
-#         - After=2019-06-20T00:00:00.789-07:00[America/Denver] #表示在该时间点之后的时间，发出的请求会被路由到uri
-         filters:
-          - StripPrefix=1                #表示将Path的路径/service01在转发前去掉，如果设置StripPrefix=2，表示将/service01/*去掉 以此类推... 同时将spring.cloud.gateway.discovery.locator.enabled改为false，如果不改的话，之前的localhost:8799/client01/test01这样的请求地址也能正常访问，因为这时为每个服务创建了2个router
+    config:
+      uri: http://localhost:19999/
 
-      discovery:
-        locator:
-          #表示gateway开启服务注册和发现功能,
-          #并且spring cloud gateway自动根据服务发现为每一个服务创建了一个router，这个router将以服务名开头的请求路径转发到对应的服务
-          enabled: false
-          #表示将请求路径的服务名配置改成小写  因为服务注册的时候，向注册中心注册时将服务名转成大写的了
-          lower-case-service-id: true
+server:
+  port: 7999
+
+
+
 
 
 
