@@ -47,6 +47,10 @@ springboot + mybatis 项目搭建
 	 11 引入gateway模块，简单实现统一网关（PS：通过网关路由的服务必须先在eureka注册，仅实现统一网关访问，安全验证拦截器实现原理和feign间调用验证拦截器原理一致，略。）
 
 
+2019-08-22添加新的功能：
+
+	 12 引入config配置中心模块，实现统一管理多个项目配置文件（PS：config-client项目中连接config-server的文件命名为bootstrap）
+
 
 
 		  
