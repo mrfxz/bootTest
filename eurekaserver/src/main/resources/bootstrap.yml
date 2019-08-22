@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: eureka-server
+  cloud:
+    config:
+      uri: http://127.0.0.1:19999
+      label: master #分支默认master
+      profile: dev #如果项目没有多环境配置，会自动寻找application.yml
+      # 客户端访问服务器规则，application = 客户端application-name,profile = dev/test/pro;
+      # label= 分支，默认master
+      #/{application}/{profile}[/{label}]
+      #/{application}-{profile}.yml
+      #/{application}-{profile}.properties
+      #/{label}/{application}-{profile}.properties
+
+
+
+
+
+
+
+
