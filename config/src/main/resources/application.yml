@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/mrfxz/bootTest/
+          uri: https://github.com/mrfxz/bootTest #目录结尾不能是bootTest/，否则匹配不到
           search-paths: allConfigTemp
 
 
